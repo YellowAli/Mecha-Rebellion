@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c83956915580e42489479d2a109470ab
+timeCreated: 1470404606
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 22762
+  packageName: Green Forest
+  packageVersion: 1.0
+  assetPath: Assets/GreenForest/PostProcessing/Resources/Shaders/MotionBlur.cginc
+  uploadId: 235056

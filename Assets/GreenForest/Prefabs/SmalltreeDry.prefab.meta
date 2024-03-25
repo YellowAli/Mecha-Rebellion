@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bb79bad6f4330604a8985958c41b9877
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 22762
+  packageName: Green Forest
+  packageVersion: 1.0
+  assetPath: Assets/GreenForest/Prefabs/SmalltreeDry.prefab
+  uploadId: 235056
