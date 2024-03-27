@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{3B92B011-DCCB-E03F-446D-47A549CF5FA9}|">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/AliE/Scripts/WeaponBehaviour.cs">
+    <Files>
+      <File FileName="Assets/AliE/Scripts/EnemyBehaviour.cs" Line="26" Column="54" />
+      <File FileName="Assets/AliE/Scripts/WeaponBehaviour.cs" Line="82" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="groupproject-team_3">
+            <Node name="Assets" expanded="True">
+              <Node name="AliE" expanded="True">
+                <Node name="Scripts" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="4ad3eebf-476e-49a4-9c03-bb83c790774c" />
+</Properties>

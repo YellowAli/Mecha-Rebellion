@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinetree3 Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1323883587227682, guid: 6896ba8c61fa0eb4189314decf27fd1d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4322675617259262, guid: 6896ba8c61fa0eb4189314decf27fd1d, type: 3}
       propertyPath: m_LocalScale.x
       value: 5

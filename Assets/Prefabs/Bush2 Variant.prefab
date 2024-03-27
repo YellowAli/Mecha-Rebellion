@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush2 Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1933256340938272, guid: 8e0819514c986124a80f4647d7257a3d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4914366330388928, guid: 8e0819514c986124a80f4647d7257a3d, type: 3}
       propertyPath: m_LocalScale.x
       value: 12
