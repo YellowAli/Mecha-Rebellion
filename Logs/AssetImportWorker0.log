@@ -1,6 +1,10 @@
 Using pre-set license
 Built from '2023.2/staging' branch; Version is '2023.2.8f1 (a3bb09f8c8c4) revision 10730249'; Using compiler version '193431935'; Build Type 'Release'
+<<<<<<< HEAD
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16218 MB
+=======
 OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 7946 MB
+>>>>>>> 1eb4c58bb90b1859c8d0db3b61dc03aeeb742342
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,19 +15,32 @@ C:\Program Files\Unity\Hub\Editor\2023.2.8f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
+<<<<<<< HEAD
+C:/Users/jacob/UnityGame_FinalProject/groupproject-team_3
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57296
+=======
 C:/Users/Ali Al-Musawi/Desktop/Project_2250/groupproject-team_3
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
 58415
+>>>>>>> 1eb4c58bb90b1859c8d0db3b61dc03aeeb742342
 -job-worker-count
 3
 -background-job-worker-count
 8
 -asset-garbage-collectors
 1
+<<<<<<< HEAD
+Successfully changed project path to: C:/Users/jacob/UnityGame_FinalProject/groupproject-team_3
+C:/Users/jacob/UnityGame_FinalProject/groupproject-team_3
+=======
 Successfully changed project path to: C:/Users/Ali Al-Musawi/Desktop/Project_2250/groupproject-team_3
 C:/Users/Ali Al-Musawi/Desktop/Project_2250/groupproject-team_3
+>>>>>>> 1eb4c58bb90b1859c8d0db3b61dc03aeeb742342
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -58,6 +75,25 @@ C:/Users/Ali Al-Musawi/Desktop/Project_2250/groupproject-team_3
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
+Player connection [20780] Host "[IP] 172.30.17.251 [Port] 0 [Flags] 2 [Guid] 199974165 [EditorId] 199974165 [Version] 1048832 [Id] WindowsEditor(7,Jacobs-Surface-8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [20780] Host "[IP] 172.30.17.251 [Port] 0 [Flags] 2 [Guid] 199974165 [EditorId] 199974165 [Version] 1048832 [Id] WindowsEditor(7,Jacobs-Surface-8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 1.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.8f1 (a3bb09f8c8c4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/jacob/UnityGame_FinalProject/groupproject-team_3/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     8109 MB
+    Driver:   31.0.101.3889
+=======
 Player connection [18712] Host "[IP] 172.30.37.67 [Port] 0 [Flags] 2 [Guid] 1697478028 [EditorId] 1697478028 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BDLQF3L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 Player connection [18712] Host "[IP] 172.30.37.67 [Port] 0 [Flags] 2 [Guid] 1697478028 [EditorId] 1697478028 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BDLQF3L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
@@ -75,11 +111,16 @@ Direct3D:
     Vendor:   Intel
     VRAM:     3973 MB
     Driver:   27.20.100.9664
+>>>>>>> 1eb4c58bb90b1859c8d0db3b61dc03aeeb742342
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.8f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
+=======
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56480
+>>>>>>> 1eb4c58bb90b1859c8d0db3b61dc03aeeb742342
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -93,19 +134,54 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< HEAD
+Registered in 0.003151 seconds.
+- Loaded All Assemblies, in  0.724 seconds
+=======
 Registered in 0.018865 seconds.
 - Loaded All Assemblies, in  1.455 seconds
+>>>>>>> 1eb4c58bb90b1859c8d0db3b61dc03aeeb742342
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+<<<<<<< HEAD
+- Finished resetting the current domain, in  0.537 seconds
+Domain Reload Profiling: 1258ms
+	BeginReloadAssembly (259ms)
+=======
 - Finished resetting the current domain, in  0.704 seconds
 Domain Reload Profiling: 2153ms
 	BeginReloadAssembly (753ms)
+>>>>>>> 1eb4c58bb90b1859c8d0db3b61dc03aeeb742342
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (299ms)
+		LoadAssemblies (256ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (296ms)
+			TypeCache.Refresh (295ms)
+				TypeCache.ScanAssembly (267ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (538ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (469ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (12ms)
+			ProcessInitializeOnLoadAttributes (360ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+=======
 		CreateAndSetChildDomain (3ms)
 	RebuildCommonClasses (99ms)
 	RebuildNativeTypeToScriptingClass (29ms)
@@ -128,6 +204,7 @@ Domain Reload Profiling: 2153ms
 			BeforeProcessingInitializeOnLoad (14ms)
 			ProcessInitializeOnLoadAttributes (373ms)
 			ProcessInitializeOnLoadMethodAttributes (131ms)
+>>>>>>> 1eb4c58bb90b1859c8d0db3b61dc03aeeb742342
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -148,6 +225,66 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+<<<<<<< HEAD
+Symbol file LoadedFromMemory doesn't match image C:\Users\jacob\UnityGame_FinalProject\groupproject-team_3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jacob\UnityGame_FinalProject\groupproject-team_3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.766 seconds
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.70 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.489 seconds
+Domain Reload Profiling: 3248ms
+	BeginReloadAssembly (658ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (967ms)
+		LoadAssemblies (687ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (472ms)
+			TypeCache.Refresh (387ms)
+				TypeCache.ScanAssembly (361ms)
+			BuildScriptInfoCaches (63ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1490ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1150ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (931ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 399 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7583 unused Assets / (22.5 MB). Loaded Objects now: 8199.
+Memory consumption went from 276.0 MB to 253.5 MB.
+Total: 29.169400 ms (FindLiveObjects: 1.272100 ms CreateObjectMapping: 2.429700 ms MarkObjects: 10.368200 ms  DeleteObjects: 15.097300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 810234.174302 seconds.
+  path: Assets/Scenes/Level2.unity
+  artifactKey: Guid(a93d9bf8c7c83124ababd83e20bc329d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level2.unity using Guid(a93d9bf8c7c83124ababd83e20bc329d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee65b97afd3d578fb029a7d1731619f0') in 0.0125354 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+=======
 Symbol file LoadedFromMemory doesn't match image C:\Users\Ali Al-Musawi\Desktop\Project_2250\groupproject-team_3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Ali Al-Musawi\Desktop\Project_2250\groupproject-team_3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 - Loaded All Assemblies, in  2.931 seconds
@@ -4000,3 +4137,4 @@ Memory consumption went from 329.2 MB to 308.6 MB.
 Total: 67.446800 ms (FindLiveObjects: 2.274200 ms CreateObjectMapping: 2.096200 ms MarkObjects: 16.166500 ms  DeleteObjects: 46.907700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+>>>>>>> 1eb4c58bb90b1859c8d0db3b61dc03aeeb742342

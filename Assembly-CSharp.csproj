@@ -77,7 +77,10 @@
     <Compile Include="Assets\GreenForest\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
     <Compile Include="Assets\GreenForest\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
     <Compile Include="Assets\GreenForest\PostProcessing\Runtime\Models\VignetteModel.cs" />
+<<<<<<< HEAD
+=======
     <Compile Include="Assets\AliA\Scripts\MoveCamera.cs" />
+>>>>>>> 1eb4c58bb90b1859c8d0db3b61dc03aeeb742342
     <Compile Include="Assets\AliE\Scripts\EnemyBehaviour.cs" />
     <Compile Include="Assets\GreenForest\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
     <Compile Include="Assets\GreenForest\PostProcessing\Runtime\Models\DitheringModel.cs" />
@@ -98,7 +101,10 @@
     <Compile Include="Assets\GreenForest\PostProcessing\Runtime\PostProcessingModel.cs" />
     <Compile Include="Assets\GreenForest\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
     <Compile Include="Assets\GreenForest\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
+<<<<<<< HEAD
+=======
     <Compile Include="Assets\AliA\Scripts\PlayerMovement.cs" />
+>>>>>>> 1eb4c58bb90b1859c8d0db3b61dc03aeeb742342
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs" />
     <Compile Include="Assets\GreenForest\PostProcessing\Runtime\Components\FxaaComponent.cs" />
     <Compile Include="Assets\GreenForest\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
@@ -109,7 +115,10 @@
     <Compile Include="Assets\GreenForest\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
     <Compile Include="Assets\GreenForest\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
     <Compile Include="Assets\GreenForest\PostProcessing\Runtime\Models\BloomModel.cs" />
+<<<<<<< HEAD
+=======
     <Compile Include="Assets\AliA\Scripts\PlayerCam.cs" />
+>>>>>>> 1eb4c58bb90b1859c8d0db3b61dc03aeeb742342
     <Compile Include="Assets\GreenForest\PostProcessing\Runtime\Components\FogComponent.cs" />
     <Compile Include="Assets\GreenForest\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
     <Compile Include="Assets\GreenForest\PostProcessing\Runtime\Models\GrainModel.cs" />
