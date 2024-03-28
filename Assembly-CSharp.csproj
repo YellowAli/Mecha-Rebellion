@@ -67,6 +67,7 @@
     <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Models/UserLutModel.cs" />
     <Compile Include="Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualTouchZone.cs" />
     <Compile Include="Assets/GreenForest/PostProcessing/Runtime/PostProcessingContext.cs" />
+    <Compile Include="Assets/Finlay/Scripts/BeamBehaviour.cs" />
     <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Components/MotionBlurComponent.cs" />
     <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Models/DepthOfFieldModel.cs" />
     <Compile Include="Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualJoystick.cs" />
@@ -85,6 +86,7 @@
     <Compile Include="Assets/StarterAssets/Mobile/Scripts/Utilities/MobileDisableAutoSwitchControls.cs" />
     <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Components/DitheringComponent.cs" />
     <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" />
+    <Compile Include="Assets/Finlay/Scripts/JetBehaviour.cs" />
     <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Utils/GraphicsUtils.cs" />
     <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Components/TaaComponent.cs" />
     <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Models/ChromaticAberrationModel.cs" />
