@@ -3567,6 +3567,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2dbb299c5ffcaa4eb66f17a2aecee99, type: 3}
+--- !u!1001 &841530484
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 101088, guid: 9f70ef996a4dad34e80b3763fcbc39f9, type: 3}
+      propertyPath: m_Name
+      value: CruiseFighter (Shiny Red)
+      objectReference: {fileID: 0}
+    - target: {fileID: 474306, guid: 9f70ef996a4dad34e80b3763fcbc39f9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -30
+      objectReference: {fileID: 0}
+    - target: {fileID: 474306, guid: 9f70ef996a4dad34e80b3763fcbc39f9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 474306, guid: 9f70ef996a4dad34e80b3763fcbc39f9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -61
+      objectReference: {fileID: 0}
+    - target: {fileID: 474306, guid: 9f70ef996a4dad34e80b3763fcbc39f9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 474306, guid: 9f70ef996a4dad34e80b3763fcbc39f9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 474306, guid: 9f70ef996a4dad34e80b3763fcbc39f9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 474306, guid: 9f70ef996a4dad34e80b3763fcbc39f9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 474306, guid: 9f70ef996a4dad34e80b3763fcbc39f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 474306, guid: 9f70ef996a4dad34e80b3763fcbc39f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 474306, guid: 9f70ef996a4dad34e80b3763fcbc39f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9f70ef996a4dad34e80b3763fcbc39f9, type: 3}
 --- !u!1001 &845746487
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4111,6 +4168,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a59503e69c3574ca0f9e67da264bda, type: 3}
+--- !u!1001 &997679271
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 103844, guid: a8ef9e2d88c66b546a6fc8dfeed1c8ca, type: 3}
+      propertyPath: m_Name
+      value: CruiseFighter (Black and Gold)
+      objectReference: {fileID: 0}
+    - target: {fileID: 447016, guid: a8ef9e2d88c66b546a6fc8dfeed1c8ca, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -30
+      objectReference: {fileID: 0}
+    - target: {fileID: 447016, guid: a8ef9e2d88c66b546a6fc8dfeed1c8ca, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 447016, guid: a8ef9e2d88c66b546a6fc8dfeed1c8ca, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -31
+      objectReference: {fileID: 0}
+    - target: {fileID: 447016, guid: a8ef9e2d88c66b546a6fc8dfeed1c8ca, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 447016, guid: a8ef9e2d88c66b546a6fc8dfeed1c8ca, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 447016, guid: a8ef9e2d88c66b546a6fc8dfeed1c8ca, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 447016, guid: a8ef9e2d88c66b546a6fc8dfeed1c8ca, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 447016, guid: a8ef9e2d88c66b546a6fc8dfeed1c8ca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 447016, guid: a8ef9e2d88c66b546a6fc8dfeed1c8ca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 447016, guid: a8ef9e2d88c66b546a6fc8dfeed1c8ca, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a8ef9e2d88c66b546a6fc8dfeed1c8ca, type: 3}
 --- !u!1001 &1002532543
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4496,6 +4610,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a59503e69c3574ca0f9e67da264bda, type: 3}
+--- !u!1001 &1236270556
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 111048, guid: 8549313ffd2dccc44af37f73d60acde3, type: 3}
+      propertyPath: m_Name
+      value: CruiseFighter (Iron Armor)
+      objectReference: {fileID: 0}
+    - target: {fileID: 459112, guid: 8549313ffd2dccc44af37f73d60acde3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -30
+      objectReference: {fileID: 0}
+    - target: {fileID: 459112, guid: 8549313ffd2dccc44af37f73d60acde3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 459112, guid: 8549313ffd2dccc44af37f73d60acde3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -41
+      objectReference: {fileID: 0}
+    - target: {fileID: 459112, guid: 8549313ffd2dccc44af37f73d60acde3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 459112, guid: 8549313ffd2dccc44af37f73d60acde3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 459112, guid: 8549313ffd2dccc44af37f73d60acde3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 459112, guid: 8549313ffd2dccc44af37f73d60acde3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 459112, guid: 8549313ffd2dccc44af37f73d60acde3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 459112, guid: 8549313ffd2dccc44af37f73d60acde3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 459112, guid: 8549313ffd2dccc44af37f73d60acde3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8549313ffd2dccc44af37f73d60acde3, type: 3}
 --- !u!1001 &1236629958
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4557,6 +4728,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76a59503e69c3574ca0f9e67da264bda, type: 3}
+--- !u!1001 &1236896516
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 134156, guid: d45cd38fab4caff4fb282fac230099ff, type: 3}
+      propertyPath: m_Name
+      value: CruiseFighter (Shiny Silver)
+      objectReference: {fileID: 0}
+    - target: {fileID: 457454, guid: d45cd38fab4caff4fb282fac230099ff, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -30
+      objectReference: {fileID: 0}
+    - target: {fileID: 457454, guid: d45cd38fab4caff4fb282fac230099ff, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 457454, guid: d45cd38fab4caff4fb282fac230099ff, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -51
+      objectReference: {fileID: 0}
+    - target: {fileID: 457454, guid: d45cd38fab4caff4fb282fac230099ff, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 457454, guid: d45cd38fab4caff4fb282fac230099ff, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457454, guid: d45cd38fab4caff4fb282fac230099ff, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 457454, guid: d45cd38fab4caff4fb282fac230099ff, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457454, guid: d45cd38fab4caff4fb282fac230099ff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457454, guid: d45cd38fab4caff4fb282fac230099ff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 457454, guid: d45cd38fab4caff4fb282fac230099ff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d45cd38fab4caff4fb282fac230099ff, type: 3}
 --- !u!1001 &1248768061
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4752,6 +4980,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4bc0990c4ead4244da5b37cfec7775f1, type: 3}
+--- !u!1001 &1280028230
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 197882, guid: acc665fc3f823024584ff8ca9b26cb1d, type: 3}
+      propertyPath: m_Name
+      value: CruiseFighter (Copper)
+      objectReference: {fileID: 0}
+    - target: {fileID: 413658, guid: acc665fc3f823024584ff8ca9b26cb1d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -30
+      objectReference: {fileID: 0}
+    - target: {fileID: 413658, guid: acc665fc3f823024584ff8ca9b26cb1d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 413658, guid: acc665fc3f823024584ff8ca9b26cb1d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -21
+      objectReference: {fileID: 0}
+    - target: {fileID: 413658, guid: acc665fc3f823024584ff8ca9b26cb1d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 413658, guid: acc665fc3f823024584ff8ca9b26cb1d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 413658, guid: acc665fc3f823024584ff8ca9b26cb1d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 413658, guid: acc665fc3f823024584ff8ca9b26cb1d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 413658, guid: acc665fc3f823024584ff8ca9b26cb1d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 413658, guid: acc665fc3f823024584ff8ca9b26cb1d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 413658, guid: acc665fc3f823024584ff8ca9b26cb1d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: acc665fc3f823024584ff8ca9b26cb1d, type: 3}
 --- !u!1 &1285713300
 GameObject:
   m_ObjectHideFlags: 0
@@ -6640,15 +6925,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 10
+  groundDrag: 5
+  jumpForce: 12
+  jumpCooldown: 0
+  airMultiplier: 0.4
+  walkSpeed: 0
+  sprintSpeed: 0
+  jumpKey: 32
   playerHeight: 2
   groundMask:
     serializedVersion: 2
     m_Bits: 8
-  jumpForce: 12
-  jumpCoolDown: 0.25
-  airMultiplier: 0.4
-  jumpKey: 32
-  groundDrag: 5
   orientation: {fileID: 1360403725}
 --- !u!1001 &1840701642
 PrefabInstance:
@@ -6841,6 +7128,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 88ea2f885b78d46e9a380e53283bef22, type: 3}
+--- !u!1001 &1951371547
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 185370, guid: a3e9bd2d875ca52428801bc00f70c240, type: 3}
+      propertyPath: m_Name
+      value: CruiseFighter (Old Red)
+      objectReference: {fileID: 0}
+    - target: {fileID: 434884, guid: a3e9bd2d875ca52428801bc00f70c240, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -30
+      objectReference: {fileID: 0}
+    - target: {fileID: 434884, guid: a3e9bd2d875ca52428801bc00f70c240, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 434884, guid: a3e9bd2d875ca52428801bc00f70c240, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -71
+      objectReference: {fileID: 0}
+    - target: {fileID: 434884, guid: a3e9bd2d875ca52428801bc00f70c240, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 434884, guid: a3e9bd2d875ca52428801bc00f70c240, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 434884, guid: a3e9bd2d875ca52428801bc00f70c240, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 434884, guid: a3e9bd2d875ca52428801bc00f70c240, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 434884, guid: a3e9bd2d875ca52428801bc00f70c240, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 434884, guid: a3e9bd2d875ca52428801bc00f70c240, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 434884, guid: a3e9bd2d875ca52428801bc00f70c240, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a3e9bd2d875ca52428801bc00f70c240, type: 3}
 --- !u!1001 &1976020177
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8174,3 +8518,9 @@ SceneRoots:
   - {fileID: 1433359935}
   - {fileID: 809802175}
   - {fileID: 1817595492}
+  - {fileID: 997679271}
+  - {fileID: 1280028230}
+  - {fileID: 1236270556}
+  - {fileID: 1951371547}
+  - {fileID: 841530484}
+  - {fileID: 1236896516}
