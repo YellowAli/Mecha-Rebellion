@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &379626535195349391
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 134156, guid: d45cd38fab4caff4fb282fac230099ff, type: 3}
+      propertyPath: m_Name
+      value: CruiseFighter (Shiny Silver) Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 457454, guid: d45cd38fab4caff4fb282fac230099ff, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.915855
+      objectReference: {fileID: 0}
+    - target: {fileID: 457454, guid: d45cd38fab4caff4fb282fac230099ff, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.7493696
+      objectReference: {fileID: 0}
+    - target: {fileID: 457454, guid: d45cd38fab4caff4fb282fac230099ff, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.9274817
+      objectReference: {fileID: 0}
+    - target: {fileID: 457454, guid: d45cd38fab4caff4fb282fac230099ff, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 457454, guid: d45cd38fab4caff4fb282fac230099ff, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457454, guid: d45cd38fab4caff4fb282fac230099ff, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457454, guid: d45cd38fab4caff4fb282fac230099ff, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457454, guid: d45cd38fab4caff4fb282fac230099ff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457454, guid: d45cd38fab4caff4fb282fac230099ff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 457454, guid: d45cd38fab4caff4fb282fac230099ff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 134156, guid: d45cd38fab4caff4fb282fac230099ff, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8916729045734996966}
+  m_SourcePrefab: {fileID: 100100000, guid: d45cd38fab4caff4fb282fac230099ff, type: 3}
+--- !u!1 &379626535195483523 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 134156, guid: d45cd38fab4caff4fb282fac230099ff, type: 3}
+  m_PrefabInstance: {fileID: 379626535195349391}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8916729045734996966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379626535195483523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c32ea0d73433c4958beab886e6556e34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  rotationSpeed: 100
+  laserBeam: {fileID: 8161459582739215130, guid: 3c9849581cffe46f79415943a8c8d4b4, type: 3}
