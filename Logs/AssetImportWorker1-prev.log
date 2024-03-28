@@ -1,27 +1,53 @@
+Unity Editor version:    2023.2.8f1 (a3bb09f8c8c4)
+Branch:                  2023.2/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.3.1 (Build 23D60)
+Darwin version:          23.3.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
 Using pre-set license
+<<<<<<< HEAD
+Pro License: YES
+2024-03-27 02:18:00.626 Unity[31690:931130] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+=======
 Built from '2023.2/staging' branch; Version is '2023.2.8f1 (a3bb09f8c8c4) revision 10730249'; Using compiler version '193431935'; Build Type 'Release'
+<<<<<<< HEAD
 OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16218 MB
+=======
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 7946 MB
+>>>>>>> 1eb4c58bb90b1859c8d0db3b61dc03aeeb742342
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+>>>>>>> origin/main
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2023.2.8f1\Editor\Unity.exe
+/Applications/Unity/Hub/Editor/2023.2.8f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
+<<<<<<< HEAD
+/Users/alielgalad/Desktop/ShaimaFinalProject/groupproject-team_3
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+59139
+=======
+<<<<<<< HEAD
 C:/Users/jacob/UnityGame_FinalProject/groupproject-team_3
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-<<<<<<< HEAD
+57296
+=======
+C:/Users/Ali Al-Musawi/Desktop/Project_2250/groupproject-team_3
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
 58415
-=======
-<<<<<<< HEAD
-56560
-=======
-58212
 >>>>>>> 1eb4c58bb90b1859c8d0db3b61dc03aeeb742342
 >>>>>>> origin/main
 -job-worker-count
@@ -30,8 +56,18 @@ Logs/AssetImportWorker1.log
 8
 -asset-garbage-collectors
 1
+<<<<<<< HEAD
+Successfully changed project path to: /Users/alielgalad/Desktop/ShaimaFinalProject/groupproject-team_3
+/Users/alielgalad/Desktop/ShaimaFinalProject/groupproject-team_3
+=======
+<<<<<<< HEAD
 Successfully changed project path to: C:/Users/jacob/UnityGame_FinalProject/groupproject-team_3
 C:/Users/jacob/UnityGame_FinalProject/groupproject-team_3
+=======
+Successfully changed project path to: C:/Users/Ali Al-Musawi/Desktop/Project_2250/groupproject-team_3
+C:/Users/Ali Al-Musawi/Desktop/Project_2250/groupproject-team_3
+>>>>>>> 1eb4c58bb90b1859c8d0db3b61dc03aeeb742342
+>>>>>>> origin/main
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -67,29 +103,16 @@ C:/Users/jacob/UnityGame_FinalProject/groupproject-team_3
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
 <<<<<<< HEAD
-Player connection [16268] Host "[IP] 172.30.37.67 [Port] 0 [Flags] 2 [Guid] 177063641 [EditorId] 177063641 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BDLQF3L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [16268] Host "[IP] 172.30.37.67 [Port] 0 [Flags] 2 [Guid] 177063641 [EditorId] 177063641 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BDLQF3L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 3
-[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
-Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 6.16 ms, found 3 plugins.
+Player connection [7986453568] Host "[IP] 172.30.64.79 [Port] 0 [Flags] 2 [Guid] 2161878390 [EditorId] 2161878390 [Version] 1048832 [Id] OSXEditor(0,dyn172-30-64-79.wireless.uwo.pri) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [7986453568] Host "[IP] 172.30.64.79 [Port] 0 [Flags] 2 [Guid] 2161878390 [EditorId] 2161878390 [Version] 1048832 [Id] OSXEditor(0,dyn172-30-64-79.wireless.uwo.pri) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 =======
 <<<<<<< HEAD
-Player connection [10832] Host "[IP] 172.30.17.251 [Port] 0 [Flags] 2 [Guid] 4275715244 [EditorId] 4275715244 [Version] 1048832 [Id] WindowsEditor(7,Jacobs-Surface-8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [10832] Host "[IP] 172.30.17.251 [Port] 0 [Flags] 2 [Guid] 4275715244 [EditorId] 4275715244 [Version] 1048832 [Id] WindowsEditor(7,Jacobs-Surface-8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [24200] Host "[IP] 172.30.17.251 [Port] 0 [Flags] 2 [Guid] 420536772 [EditorId] 420536772 [Version] 1048832 [Id] WindowsEditor(7,Jacobs-Surface-8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [24200] Host "[IP] 172.30.17.251 [Port] 0 [Flags] 2 [Guid] 420536772 [EditorId] 420536772 [Version] 1048832 [Id] WindowsEditor(7,Jacobs-Surface-8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 [Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 2.32 ms, found 3 plugins.
-=======
-Player connection [11464] Host "[IP] 172.30.37.67 [Port] 0 [Flags] 2 [Guid] 194086014 [EditorId] 194086014 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BDLQF3L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [11464] Host "[IP] 172.30.37.67 [Port] 0 [Flags] 2 [Guid] 194086014 [EditorId] 194086014 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BDLQF3L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 3
-[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
-Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 9.13 ms, found 3 plugins.
->>>>>>> 1eb4c58bb90b1859c8d0db3b61dc03aeeb742342
->>>>>>> origin/main
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.2.8f1 (a3bb09f8c8c4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.8f1/Editor/Data/Resources/UnitySubsystems
@@ -101,61 +124,92 @@ Direct3D:
     Vendor:   Intel
     VRAM:     8109 MB
     Driver:   31.0.101.3889
+=======
+Player connection [16268] Host "[IP] 172.30.37.67 [Port] 0 [Flags] 2 [Guid] 177063641 [EditorId] 177063641 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BDLQF3L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [16268] Host "[IP] 172.30.37.67 [Port] 0 [Flags] 2 [Guid] 177063641 [EditorId] 177063641 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BDLQF3L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+>>>>>>> origin/main
+JobSystem: Creating JobQueue using job-worker-count value 3
+[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 1.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.8f1 (a3bb09f8c8c4)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2023.2.8f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/alielgalad/Desktop/ShaimaFinalProject/groupproject-team_3/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+<<<<<<< HEAD
+ preferred device: Apple M2 (high power)
+Metal devices available: 1
+0: Apple M2 (high power)
+Using device Apple M2 (high power)
+Initializing Metal device caps: Apple M2
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2023.2.8f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2023.2.8f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2023.2.8f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56690
+=======
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x8a56)
+    Vendor:   Intel
+    VRAM:     3973 MB
+    Driver:   27.20.100.9664
+>>>>>>> 1eb4c58bb90b1859c8d0db3b61dc03aeeb742342
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.8f1/Editor/Data/MonoBleedingEdge/etc'
 <<<<<<< HEAD
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
+=======
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
-=======
-<<<<<<< HEAD
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
-=======
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56896
 >>>>>>> 1eb4c58bb90b1859c8d0db3b61dc03aeeb742342
 >>>>>>> origin/main
 Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
 Registering precompiled unity dll's ...
+<<<<<<< HEAD
+Register platform support module: /Applications/Unity/Hub/Editor/2023.2.8f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001625 seconds.
+- Loaded All Assemblies, in  0.260 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+icall.c:1842:
+icall.c:1842:
+- Finished resetting the current domain, in  0.219 seconds
+Domain Reload Profiling: 479ms
+	BeginReloadAssembly (74ms)
+=======
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 <<<<<<< HEAD
+Registered in 0.004184 seconds.
+- Loaded All Assemblies, in  0.728 seconds
+=======
 Registered in 0.010254 seconds.
 - Loaded All Assemblies, in  1.102 seconds
-=======
-<<<<<<< HEAD
-Registered in 0.003014 seconds.
-- Loaded All Assemblies, in  0.702 seconds
-=======
-Registered in 0.021739 seconds.
-- Loaded All Assemblies, in  1.737 seconds
 >>>>>>> 1eb4c58bb90b1859c8d0db3b61dc03aeeb742342
->>>>>>> origin/main
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 <<<<<<< HEAD
+- Finished resetting the current domain, in  0.537 seconds
+Domain Reload Profiling: 1262ms
+	BeginReloadAssembly (259ms)
+=======
 - Finished resetting the current domain, in  0.706 seconds
 Domain Reload Profiling: 1802ms
 	BeginReloadAssembly (389ms)
-=======
-<<<<<<< HEAD
-- Finished resetting the current domain, in  0.521 seconds
-Domain Reload Profiling: 1221ms
-	BeginReloadAssembly (245ms)
-=======
-- Finished resetting the current domain, in  1.104 seconds
-Domain Reload Profiling: 2829ms
-	BeginReloadAssembly (624ms)
 >>>>>>> 1eb4c58bb90b1859c8d0db3b61dc03aeeb742342
 >>>>>>> origin/main
 		ExecutionOrderSort (0ms)
@@ -163,67 +217,67 @@ Domain Reload Profiling: 2829ms
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 <<<<<<< HEAD
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (118ms)
+		LoadAssemblies (74ms)
+=======
+<<<<<<< HEAD
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (300ms)
+		LoadAssemblies (256ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (296ms)
+			TypeCache.Refresh (294ms)
+				TypeCache.ScanAssembly (268ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (538ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (471ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (16ms)
+			ProcessInitializeOnLoadAttributes (355ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+=======
 		CreateAndSetChildDomain (3ms)
 	RebuildCommonClasses (94ms)
 	RebuildNativeTypeToScriptingClass (23ms)
 	initialDomainReloadingComplete (136ms)
 	LoadAllAssembliesAndSetupDomain (452ms)
 		LoadAssemblies (372ms)
-=======
-<<<<<<< HEAD
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (71ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (75ms)
-	LoadAllAssembliesAndSetupDomain (286ms)
-		LoadAssemblies (241ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (282ms)
-			TypeCache.Refresh (280ms)
-				TypeCache.ScanAssembly (259ms)
-			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (522ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (453ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (13ms)
-			ProcessInitializeOnLoadAttributes (337ms)
-			ProcessInitializeOnLoadMethodAttributes (81ms)
-=======
-		CreateAndSetChildDomain (4ms)
-	RebuildCommonClasses (177ms)
-	RebuildNativeTypeToScriptingClass (62ms)
-	initialDomainReloadingComplete (231ms)
-	LoadAllAssembliesAndSetupDomain (628ms)
-		LoadAssemblies (607ms)
 >>>>>>> origin/main
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (447ms)
-			TypeCache.Refresh (443ms)
-				TypeCache.ScanAssembly (406ms)
+		AnalyzeDomain (116ms)
+			TypeCache.Refresh (115ms)
+				TypeCache.ScanAssembly (105ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (707ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (219ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (540ms)
+		SetupLoadedEditorAssemblies (174ms)
 			LogAssemblyErrors (0ms)
 <<<<<<< HEAD
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (123ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+=======
 			InitializePlatformSupportModulesInManaged (22ms)
 			SetLoadedEditorAssemblies (12ms)
 			BeforeProcessingInitializeOnLoad (14ms)
 			ProcessInitializeOnLoadAttributes (388ms)
 			ProcessInitializeOnLoadMethodAttributes (104ms)
-=======
-			InitializePlatformSupportModulesInManaged (38ms)
-			SetLoadedEditorAssemblies (21ms)
-			BeforeProcessingInitializeOnLoad (28ms)
-			ProcessInitializeOnLoadAttributes (644ms)
-			ProcessInitializeOnLoadMethodAttributes (194ms)
 >>>>>>> 1eb4c58bb90b1859c8d0db3b61dc03aeeb742342
 >>>>>>> origin/main
 			AfterProcessingInitializeOnLoad (0ms)
@@ -234,6 +288,23 @@ Domain Reload Profiling: 2829ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
+<<<<<<< HEAD
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/alielgalad/Desktop/ShaimaFinalProject/groupproject-team_3/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/alielgalad/Desktop/ShaimaFinalProject/groupproject-team_3/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.703 seconds
+=======
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -249,113 +320,117 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 <<<<<<< HEAD
 Symbol file LoadedFromMemory doesn't match image C:\Users\jacob\UnityGame_FinalProject\groupproject-team_3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\jacob\UnityGame_FinalProject\groupproject-team_3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.868 seconds
+- Loaded All Assemblies, in  1.746 seconds
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.565 seconds
-Domain Reload Profiling: 3427ms
-	BeginReloadAssembly (544ms)
+- Finished resetting the current domain, in  1.479 seconds
+Domain Reload Profiling: 3219ms
+	BeginReloadAssembly (640ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (45ms)
-	RebuildCommonClasses (68ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (65ms)
-	LoadAllAssembliesAndSetupDomain (1167ms)
-		LoadAssemblies (627ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (966ms)
+		LoadAssemblies (684ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (685ms)
-			TypeCache.Refresh (579ms)
-				TypeCache.ScanAssembly (544ms)
-			BuildScriptInfoCaches (80ms)
-			ResolveRequiredComponents (21ms)
-	FinalizeReload (1566ms)
+		AnalyzeDomain (466ms)
+			TypeCache.Refresh (380ms)
+				TypeCache.ScanAssembly (353ms)
+			BuildScriptInfoCaches (64ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1480ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1222ms)
+		SetupLoadedEditorAssemblies (1148ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (136ms)
-			ProcessInitializeOnLoadAttributes (979ms)
-			ProcessInitializeOnLoadMethodAttributes (87ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (114ms)
+			ProcessInitializeOnLoadAttributes (927ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 9.25 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.94 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 399 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7583 unused Assets / (22.5 MB). Loaded Objects now: 8199.
-Memory consumption went from 276.1 MB to 253.6 MB.
-Total: 31.734300 ms (FindLiveObjects: 1.637500 ms CreateObjectMapping: 3.808100 ms MarkObjects: 14.093400 ms  DeleteObjects: 12.193400 ms)
+Unloading 7583 unused Assets / (21.8 MB). Loaded Objects now: 8199.
+Memory consumption went from 276.0 MB to 254.2 MB.
+Total: 27.254800 ms (FindLiveObjects: 1.682100 ms CreateObjectMapping: 2.300500 ms MarkObjects: 9.912300 ms  DeleteObjects: 13.355600 ms)
 
 =======
 Symbol file LoadedFromMemory doesn't match image C:\Users\Ali Al-Musawi\Desktop\Project_2250\groupproject-team_3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Ali Al-Musawi\Desktop\Project_2250\groupproject-team_3\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 - Loaded All Assemblies, in  3.073 seconds
+>>>>>>> origin/main
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.90 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.17 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.594 seconds
-Domain Reload Profiling: 5650ms
-	BeginReloadAssembly (936ms)
+- Finished resetting the current domain, in  0.540 seconds
+Domain Reload Profiling: 1243ms
+	BeginReloadAssembly (195ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (76ms)
-	RebuildCommonClasses (98ms)
-	RebuildNativeTypeToScriptingClass (28ms)
-	initialDomainReloadingComplete (98ms)
-	LoadAllAssembliesAndSetupDomain (1894ms)
-		LoadAssemblies (1242ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (448ms)
+		LoadAssemblies (252ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (949ms)
-			TypeCache.Refresh (786ms)
-				TypeCache.ScanAssembly (733ms)
-			BuildScriptInfoCaches (119ms)
-			ResolveRequiredComponents (35ms)
-	FinalizeReload (2596ms)
+		AnalyzeDomain (233ms)
+			TypeCache.Refresh (196ms)
+				TypeCache.ScanAssembly (178ms)
+			BuildScriptInfoCaches (25ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (540ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1952ms)
+		SetupLoadedEditorAssemblies (401ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (13ms)
-			BeforeProcessingInitializeOnLoad (201ms)
-			ProcessInitializeOnLoadAttributes (1522ms)
-			ProcessInitializeOnLoadMethodAttributes (178ms)
-			AfterProcessingInitializeOnLoad (25ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (320ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2023.2.8f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 399 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7583 unused Assets / (22.3 MB). Loaded Objects now: 8195.
-Memory consumption went from 275.8 MB to 253.5 MB.
-Total: 36.092900 ms (FindLiveObjects: 5.619300 ms CreateObjectMapping: 1.912400 ms MarkObjects: 8.774300 ms  DeleteObjects: 19.782800 ms)
+Unloading 7589 unused Assets / (18.8 MB). Loaded Objects now: 8183.
+Memory consumption went from 287.1 MB to 268.3 MB.
+Total: 10.283959 ms (FindLiveObjects: 0.900791 ms CreateObjectMapping: 0.396292 ms MarkObjects: 4.352416 ms  DeleteObjects: 4.633750 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 438348.158855 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9acc32ba2ac08345ff3b47d77ccd6a4d') in 0.0176303 seconds
+  Time since last request: 57746.297903 seconds.
+  path: Assets/Scenes/Level2.unity
+  artifactKey: Guid(a93d9bf8c7c83124ababd83e20bc329d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level2.unity using Guid(a93d9bf8c7c83124ababd83e20bc329d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45074cf073d5bf59b43122202c7bbcbe') in 0.004328667 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
+<<<<<<< HEAD
+=======
 ========================================================================
 Received Prepare
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
@@ -2738,7 +2813,6 @@ Received Import Request.
 Start importing Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipelineResources/Material/AreaLightViewer.mat using Guid(ef5f65c980e25304098a95e28f3bd20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0940e32f7a4e9e43e8715d2f05466b12') in 1.0514398 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
-<<<<<<< HEAD
 ========================================================================
 Received Import Request.
   Time since last request: 0.000100 seconds.
@@ -4143,6 +4217,5 @@ Memory consumption went from 329.2 MB to 306.7 MB.
 Total: 71.431800 ms (FindLiveObjects: 2.831600 ms CreateObjectMapping: 2.167900 ms MarkObjects: 16.855800 ms  DeleteObjects: 49.573100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
-=======
 >>>>>>> 1eb4c58bb90b1859c8d0db3b61dc03aeeb742342
 >>>>>>> origin/main
