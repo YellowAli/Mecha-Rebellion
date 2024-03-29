@@ -14,20 +14,24 @@ public class JetBehaviour : MonoBehaviour
 
     void Start()
     {
-        // Example of accessing a Rigidbody component safely
-        Rigidbody rb = GetComponent<Rigidbody>();
+        // Attempt to get the Rigidbody component
+        rb = GetComponent<Rigidbody>();
+
+        // Check if Rigidbody component was found
         if (rb != null)
         {
-            // Rigidbody component exists, safe to use it
+            // Disable gravity initially, Rigidbody component exists
+            rb.useGravity = false;
         }
         else
         {
-            // Rigidbody component doesn't exist, handle accordingly
+            // Rigidbody component doesn't exist, so add it
+            rb = gameObject.AddComponent<Rigidbody>();
+            rb.useGravity = false;
+            // Set other Rigidbody properties as needed
         }
-        // Disable gravity initially
-        rb = GetComponent<Rigidbody>();
-        rb.useGravity = false;
     }
+
 
     void Update()
     {
