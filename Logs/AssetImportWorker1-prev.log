@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Using pre-set license
 Built from '2023.2/staging' branch; Version is '2023.2.8f1 (a3bb09f8c8c4) revision 10730249'; Using compiler version '193431935'; Build Type 'Release'
 OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16218 MB
@@ -5,25 +6,55 @@ BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, I
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\2023.2.8f1\Editor\Unity.exe
+=======
+Unity Editor version:    2023.2.8f1 (a3bb09f8c8c4)
+Branch:                  2023.2/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.2.1 (Build 23C71)
+Darwin version:          23.2.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+2024-03-28 22:15:56.586 Unity[40169:491669] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2023.2.8f1/Unity.app/Contents/MacOS/Unity
+>>>>>>> 5f43a4c152757362e40b4a68037864ae9742c2df
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
+<<<<<<< HEAD
 C:/Users/jacob/UnityGame_FinalProject/groupproject-team_3
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
 61423
+=======
+/Users/shahedmac/Desktop/untitled folder/groupproject-team_53
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+56053
+>>>>>>> 5f43a4c152757362e40b4a68037864ae9742c2df
 -job-worker-count
 3
 -background-job-worker-count
 8
 -asset-garbage-collectors
 1
+<<<<<<< HEAD
 Successfully changed project path to: C:/Users/jacob/UnityGame_FinalProject/groupproject-team_3
 C:/Users/jacob/UnityGame_FinalProject/groupproject-team_3
+=======
+Successfully changed project path to: /Users/shahedmac/Desktop/untitled folder/groupproject-team_53
+/Users/shahedmac/Desktop/untitled folder/groupproject-team_53
+>>>>>>> 5f43a4c152757362e40b4a68037864ae9742c2df
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -58,6 +89,7 @@ C:/Users/jacob/UnityGame_FinalProject/groupproject-team_3
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
 Player connection [2024] Host "[IP] 10.0.0.128 [Port] 0 [Flags] 2 [Guid] 2261574316 [EditorId] 2261574316 [Version] 1048832 [Id] WindowsEditor(7,Jacobs-Surface-8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 Player connection [2024] Host "[IP] 10.0.0.128 [Port] 0 [Flags] 2 [Guid] 2261574316 [EditorId] 2261574316 [Version] 1048832 [Id] WindowsEditor(7,Jacobs-Surface-8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
@@ -102,10 +134,56 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 - Finished resetting the current domain, in  0.993 seconds
 Domain Reload Profiling: 1817ms
 	BeginReloadAssembly (294ms)
+=======
+Player connection [8747319872] Host "[IP] 172.30.140.73 [Port] 0 [Flags] 2 [Guid] 2615636394 [EditorId] 2615636394 [Version] 1048832 [Id] OSXEditor(0,dyn172-30-140-73.wireless.uwo.pri) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8747319872] Host "[IP] 172.30.140.73 [Port] 0 [Flags] 2 [Guid] 2615636394 [EditorId] 2615636394 [Version] 1048832 [Id] OSXEditor(0,dyn172-30-140-73.wireless.uwo.pri) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 3.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.8f1 (a3bb09f8c8c4)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2023.2.8f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/shahedmac/Desktop/untitled folder/groupproject-team_53/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2023.2.8f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2023.2.8f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2023.2.8f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56169
+Begin MonoManager ReloadAssembly
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2023.2.8f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001946 seconds.
+- Loaded All Assemblies, in  1.003 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+icall.c:1842:
+icall.c:1842:
+- Finished resetting the current domain, in  2.108 seconds
+Domain Reload Profiling: 3113ms
+	BeginReloadAssembly (382ms)
+>>>>>>> 5f43a4c152757362e40b4a68037864ae9742c2df
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (95ms)
 	RebuildNativeTypeToScriptingClass (27ms)
@@ -130,12 +208,39 @@ Domain Reload Profiling: 1817ms
 			ProcessInitializeOnLoadMethodAttributes (153ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
+=======
+		CreateAndSetChildDomain (5ms)
+	RebuildCommonClasses (78ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (230ms)
+	LoadAllAssembliesAndSetupDomain (294ms)
+		LoadAssemblies (376ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (284ms)
+			TypeCache.Refresh (280ms)
+				TypeCache.ScanAssembly (252ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (2111ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1819ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (50ms)
+			SetLoadedEditorAssemblies (30ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (1289ms)
+			ProcessInitializeOnLoadMethodAttributes (413ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (1ms)
+>>>>>>> 5f43a4c152757362e40b4a68037864ae9742c2df
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
+<<<<<<< HEAD
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -204,5 +309,272 @@ Received Import Request.
   path: Assets/Scenes/Level3.unity
   artifactKey: Guid(d0bc2c7779797fc4886bab7ca8533473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/Level3.unity using Guid(d0bc2c7779797fc4886bab7ca8533473) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8f0e263810059182dedf0510aa407a8') in 0.0260331 seconds
+=======
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/shahedmac/Desktop/untitled folder/groupproject-team_53/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/shahedmac/Desktop/untitled folder/groupproject-team_53/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  4.493 seconds
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.60 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.271 seconds
+Domain Reload Profiling: 8774ms
+	BeginReloadAssembly (1558ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (71ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (418ms)
+	RebuildCommonClasses (78ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (197ms)
+	LoadAllAssembliesAndSetupDomain (2635ms)
+		LoadAssemblies (1866ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (992ms)
+			TypeCache.Refresh (735ms)
+				TypeCache.ScanAssembly (656ms)
+			BuildScriptInfoCaches (157ms)
+			ResolveRequiredComponents (95ms)
+	FinalizeReload (4282ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3507ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (124ms)
+			ProcessInitializeOnLoadAttributes (3101ms)
+			ProcessInitializeOnLoadMethodAttributes (250ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Launching external process: /Applications/Unity/Hub/Editor/2023.2.8f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.11 seconds
+Refreshing native plugins compatible for Editor in 7.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 399 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7594 unused Assets / (20.1 MB). Loaded Objects now: 8186.
+Memory consumption went from 285.2 MB to 265.1 MB.
+Total: 74.365917 ms (FindLiveObjects: 14.051667 ms CreateObjectMapping: 2.209958 ms MarkObjects: 34.245708 ms  DeleteObjects: 23.853541 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 36471.954335 seconds.
+  path: Assets/ProjectSettings/EditorBuildSettings.asset
+  artifactKey: Guid(75ba4f197c0ca514896c918791a0214f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectSettings/EditorBuildSettings.asset using Guid(75ba4f197c0ca514896c918791a0214f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5e74d42ea62b830f6583d66d71032cd') in 0.069793042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.318935 seconds.
+  path: Assets/ProjectSettings/InputManager.asset
+  artifactKey: Guid(56af471b4debb8f46971091944815f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectSettings/InputManager.asset using Guid(56af471b4debb8f46971091944815f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8741d99c5fd6147545a5020d301c774f') in 0.001156417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/ProjectSettings/NavMeshAreas.asset
+  artifactKey: Guid(3f1dbfe2ff833704fa33e433be593bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectSettings/NavMeshAreas.asset using Guid(3f1dbfe2ff833704fa33e433be593bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32802d85d0fea0c16aef4f42651370a9') in 0.001980667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/ProjectSettings/Physics2DSettings.asset
+  artifactKey: Guid(52ca4b97d2d6dac46892ac58274f5a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectSettings/Physics2DSettings.asset using Guid(52ca4b97d2d6dac46892ac58274f5a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73c4ecdbc601faaa0fbf2e9c032cce0b') in 0.002935708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/ProjectSettings/MemorySettings.asset
+  artifactKey: Guid(4b97116d76f5aab41bb40790b224aad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProjectSettings/MemorySettings.asset using Guid(4b97116d76f5aab41bb40790b224aad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '917ee48f484c4dd68d0f3b01e7b54bc5') in 0.000978083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 12.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 177 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7586 unused Assets / (21.5 MB). Loaded Objects now: 8188.
+Memory consumption went from 228.2 MB to 206.8 MB.
+Total: 117.669167 ms (FindLiveObjects: 11.542042 ms CreateObjectMapping: 2.290000 ms MarkObjects: 72.514917 ms  DeleteObjects: 31.172625 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Assertion failed on expression: 'res'
+Failed to load 'VirtualArtifacts/Primary/ec6c5af987867f54aa08fba81ee279bd'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load shader (instanceID 870, GUID ec6c5af987867f54aa08fba81ee279bd)
+Assertion failed on expression: 'res'
+Failed to load 'VirtualArtifacts/Primary/eb607f5e8fc16e140b732f33d26c8c31'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load shader (instanceID 426, GUID eb607f5e8fc16e140b732f33d26c8c31)
+Assertion failed on expression: 'res'
+Failed to load 'VirtualArtifacts/Primary/e8b802ac01d87144b91f12f40c1f2659'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load shader (instanceID 440, GUID e8b802ac01d87144b91f12f40c1f2659)
+Assertion failed on expression: 'res'
+Assertion failed on expression: 'res'
+Unknown error occurred while loading 'VirtualArtifacts/Primary/741979ff70f7bd6489fbcb464280ecff'.
+Assertion failed on expression: 'res'
+Unknown error occurred while loading 'VirtualArtifacts/Primary/3e7317e0800c066448ee07a3e47f102b'.
+Assertion failed on expression: 'res'
+Failed to load 'VirtualArtifacts/Primary/9f3f8a01b8caaaa4595591dc96d43dd2'. File may be corrupted or was serialized with a newer version of Unity.
+Assertion failed on expression: 'res'
+Failed to load 'VirtualArtifacts/Primary/743eb3491795b9545955695d591195a1'. File may be corrupted or was serialized with a newer version of Unity.
+Assertion failed on expression: 'res'
+Failed to load 'VirtualArtifacts/Primary/048b235b54fbfaa4d80ec85ea847d4f8'. File may be corrupted or was serialized with a newer version of Unity.
+Assertion failed on expression: 'res'
+Failed to load 'VirtualArtifacts/Primary/e477e231a2d044e6bc38544c4b746446'. File may be corrupted or was serialized with a newer version of Unity.
+Assertion failed on expression: 'res'
+Failed to load 'VirtualArtifacts/Primary/4b9a355e064de034dbfafe4583ba766b'. File may be corrupted or was serialized with a newer version of Unity.
+Assertion failed on expression: 'res'
+Failed to load 'VirtualArtifacts/Primary/0b64f79746d2daf4198eaf6eab9af259'. File may be corrupted or was serialized with a newer version of Unity.
+Assertion failed on expression: 'res'
+Unknown error occurred while loading 'VirtualArtifacts/Primary/31e0ca4c210f97c468037d11a5b832bb'.
+Assertion failed on expression: 'res'
+Failed to load 'VirtualArtifacts/Primary/9eb1abde882538a4ea46fa23e49ab9fa'. File may be corrupted or was serialized with a newer version of Unity.
+Assertion failed on expression: 'res'
+Unknown error occurred while loading 'VirtualArtifacts/Primary/1535d29f35ea86b4282b6ca652002e2a'.
+Assertion failed on expression: 'res'
+Failed to load 'VirtualArtifacts/Primary/1b12fb238086d0f49983b4aa72768349'. File may be corrupted or was serialized with a newer version of Unity.
+Assertion failed on expression: 'res'
+Unknown error occurred while loading 'VirtualArtifacts/Primary/c24e765a2bbaace4d9a0ecec600e1967'.
+Assertion failed on expression: 'res'
+Failed to load 'VirtualArtifacts/Primary/28dba68663251c347b548c8ea7405650'. File may be corrupted or was serialized with a newer version of Unity.
+Assertion failed on expression: 'res'
+Failed to load 'VirtualArtifacts/Primary/486be52dddc4e054fb10a7b9b78788c2'. File may be corrupted or was serialized with a newer version of Unity.
+Assertion failed on expression: 'res'
+Unknown error occurred while loading 'VirtualArtifacts/Primary/5ea9865df3e53b448856785b88f8e7b9'.
+Assertion failed on expression: 'res'
+Unknown error occurred while loading 'VirtualArtifacts/Primary/5dbb0ac12cb11f84084b7e5633481bd1'.
+Assertion failed on expression: 'res'
+Failed to load 'VirtualArtifacts/Primary/6e5ef632062bc484f812c7976f450ed1'. File may be corrupted or was serialized with a newer version of Unity.
+Assertion failed on expression: 'res'
+Failed to load 'VirtualArtifacts/Primary/764a24bb47ef5ba4781d9ae82ca07445'. File may be corrupted or was serialized with a newer version of Unity.
+Assertion failed on expression: 'res'
+Unknown error occurred while loading 'VirtualArtifacts/Primary/09a7f6850ee9fb4439e5ebd632127da5'.
+Assertion failed on expression: 'res'
+Unknown error occurred while loading 'VirtualArtifacts/Primary/d1de9ac7d9016204da289affe9677942'.
+Assertion failed on expression: 'res'
+Unknown error occurred while loading 'VirtualArtifacts/Primary/4feaa605aeff33840b659850ce6bfcc2'.
+Assertion failed on expression: 'res'
+Unknown error occurred while loading 'VirtualArtifacts/Primary/2af5c49c7865edb4b823826970ec176a'.
+Assertion failed on expression: 'res'
+Failed to load 'VirtualArtifacts/Primary/cff077c60ac76074893014e2f49e3159'. File may be corrupted or was serialized with a newer version of Unity.
+Assertion failed on expression: 'res'
+Unknown error occurred while loading 'VirtualArtifacts/Primary/64a553bb564274041906f78ffba955e4'.
+Assertion failed on expression: 'res'
+Failed to load 'VirtualArtifacts/Primary/65af3444cbf4b3747a4dead7ee00cfee'. File may be corrupted or was serialized with a newer version of Unity.
+Assertion failed on expression: 'res'
+Unknown error occurred while loading 'VirtualArtifacts/Primary/fa9b66253270e9c47a67ae142f669eb4'.
+Assertion failed on expression: 'res'
+Unknown error occurred while loading 'VirtualArtifacts/Primary/c70dd492c3d2fe94589d6ca8d4e37915'.
+Assertion failed on expression: 'res'
+Failed to load 'VirtualArtifacts/Primary/0951de5992461754fa73650732c4954c'. File may be corrupted or was serialized with a newer version of Unity.
+Assertion failed on expression: 'res'
+Failed to load 'VirtualArtifacts/Primary/a3f7b8c99de28a94684cb1daebeccf5d'. File may be corrupted or was serialized with a newer version of Unity.
+Assertion failed on expression: 'res'
+Failed to load 'VirtualArtifacts/Primary/44195ddb6d9240646847cbf4f38dfa98'. File may be corrupted or was serialized with a newer version of Unity.
+Assertion failed on expression: 'res'
+Failed to load 'VirtualArtifacts/Primary/b4ed2382141619f40af1f743a84ccaea'. File may be corrupted or was serialized with a newer version of Unity.
+Assertion failed on expression: 'res'
+Unknown error occurred while loading 'VirtualArtifacts/Primary/aa922d239de60304f964e24488559eeb'.
+Assertion failed on expression: 'res'
+Failed to load 'VirtualArtifacts/Primary/1c93af4338c0c1b42b92464992eebc10'. File may be corrupted or was serialized with a newer version of Unity.
+Assertion failed on expression: 'res'
+Unknown error occurred while loading 'VirtualArtifacts/Primary/76f78ba05cea1ed449c1ef613ab90597'.
+Assertion failed on expression: 'res'
+Unknown error occurred while loading 'VirtualArtifacts/Primary/6dd3f00b9032de54c8784df7bdc6fdf8'.
+Assertion failed on expression: 'res'
+Assertion failed on expression: 'res'
+Unknown error occurred while loading 'VirtualArtifacts/Primary/0be88ddf5240d49468d9159340465bfd'.
+Assertion failed on expression: 'res'
+Failed to load 'VirtualArtifacts/Primary/4dea53e2ff15ed0448817c2aa4246e53'. File may be corrupted or was serialized with a newer version of Unity.
+Assertion failed on expression: 'res'
+Unknown error occurred while loading 'VirtualArtifacts/Primary/fefde0fac988da24a93bc2d8d6e0a0a1'.
+Assertion failed on expression: 'res'
+Unknown error occurred while loading 'VirtualArtifacts/Primary/0bb1b7e0ddcd5c44baf3ddc7456eb196'.
+Assertion failed on expression: 'res'
+Failed to load 'VirtualArtifacts/Primary/7cce01e3b2c07a34b8a6cfa8dcd99d0b'. File may be corrupted or was serialized with a newer version of Unity.
+Assertion failed on expression: 'res'
+Failed to load 'VirtualArtifacts/Primary/fc95b5dff16ba594896e211a389c03fc'. File may be corrupted or was serialized with a newer version of Unity.
+Assertion failed on expression: 'res'
+Failed to load 'VirtualArtifacts/Primary/1a6fea1dc099b984d8f2b27d504dc096'. File may be corrupted or was serialized with a newer version of Unity.
+Assertion failed on expression: 'res'
+Failed to load 'VirtualArtifacts/Primary/ed9438fa777911d48933402087203b15'. File may be corrupted or was serialized with a newer version of Unity.
+Assertion failed on expression: 'res'
+Failed to load 'VirtualArtifacts/Primary/4e3267a1135742441a14298d8dcac04a'. File may be corrupted or was serialized with a newer version of Unity.
+Assertion failed on expression: 'res'
+Failed to load 'VirtualArtifacts/Primary/e213272ad8ff213409a6e13b5c26b4e4'. File may be corrupted or was serialized with a newer version of Unity.
+Assertion failed on expression: 'res'
+Failed to load 'VirtualArtifacts/Primary/6a70efb18a2b2964c8eb0fc04aba20e9'. File may be corrupted or was serialized with a newer version of Unity.
+Assertion failed on expression: 'res'
+Failed to load 'VirtualArtifacts/Primary/78d9a89700295a4418d0921bf27e1857'. File may be corrupted or was serialized with a newer version of Unity.
+Assertion failed on expression: 'res'
+Failed to load 'VirtualArtifacts/Primary/d48a3a5496d98a44c89f335934805d10'. File may be corrupted or was serialized with a newer version of Unity.
+Assertion failed on expression: 'res'
+Unknown error occurred while loading 'VirtualArtifacts/Primary/96170a954eb538b40a5ff369552c3629'.
+Assertion failed on expression: 'res'
+Unknown error occurred while loading 'VirtualArtifacts/Primary/68e831c555284d741b985e05369f0e63'.
+Assertion failed on expression: 'res'
+Failed to load 'VirtualArtifacts/Primary/b06a7993621def248addd55d0fe931b1'. File may be corrupted or was serialized with a newer version of Unity.
+Assertion failed on expression: 'res'
+Unknown error occurred while loading 'VirtualArtifacts/Primary/c8049ca85c4c7d047ba28f34d800c663'.
+Assertion failed on expression: 'res'
+Unknown error occurred while loading 'VirtualArtifacts/Primary/771ea9a52996c024095906ac37a8a71f'.
+Assertion failed on expression: 'res'
+Failed to load 'VirtualArtifacts/Primary/ef9a910d0ec6ebb41ae3f5c7a69daf46'. File may be corrupted or was serialized with a newer version of Unity.
+Assertion failed on expression: 'res'
+Unknown error occurred while loading 'VirtualArtifacts/Primary/6d048f7b1bd45e840b4e79ec92639fa8'.
+Assertion failed on expression: 'res'
+Failed to load 'VirtualArtifacts/Primary/45de9ff58691e934c9810dc23de2ba50'. File may be corrupted or was serialized with a newer version of Unity.
+Assertion failed on expression: 'res'
+Assertion failed on expression: 'res'
+Unknown error occurred while loading 'VirtualArtifacts/Primary/691556691a6b4a941878dbc0303d3972'.
+Assertion failed on expression: 'res'
+Unknown error occurred while loading 'VirtualArtifacts/Primary/eb607f5e8fc16e140b732f33d26c8c31'.
+Refreshing native plugins compatible for Editor in 6.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 116 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7525 unused Assets / (13.7 MB). Loaded Objects now: 8188.
+Memory consumption went from 205.1 MB to 191.4 MB.
+Total: 62.237500 ms (FindLiveObjects: 10.133792 ms CreateObjectMapping: 1.699750 ms MarkObjects: 33.801750 ms  DeleteObjects: 16.598792 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 997.844056 seconds.
+  path: Assets/Shahed/LevelInitializer.cs
+  artifactKey: Guid(623f5a8c1d3a84c3b9fe559ca87b2332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shahed/LevelInitializer.cs using Guid(623f5a8c1d3a84c3b9fe559ca87b2332) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2020b533ffb99bf230211b816b8cb5a3') in 0.025079459 seconds
+>>>>>>> 5f43a4c152757362e40b4a68037864ae9742c2df
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
