@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3B92B011-DCCB-E03F-446D-47A549CF5FA9}</ProjectGuid>
+    <ProjectGuid>{8EB71849-FC29-49A7-F171-49977B599208}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -89,7 +89,9 @@
     <Compile Include="Assets/Finlay/Scripts/JetBehaviour.cs" />
     <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Utils/GraphicsUtils.cs" />
     <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Components/TaaComponent.cs" />
+    <Compile Include="Assets/Shahed/SwitchScenes.cs" />
     <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Models/ChromaticAberrationModel.cs" />
+    <Compile Include="Assets/Shahed/PersistentData.cs" />
     <Compile Include="Assets/GreenForest/PostProcessing/Runtime/PostProcessingProfile.cs" />
     <Compile Include="Assets/AliE/Scripts/WeaponBehaviour.cs" />
     <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Components/GrainComponent.cs" />
@@ -105,6 +107,7 @@
     <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Components/FxaaComponent.cs" />
     <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Models/ScreenSpaceReflectionModel.cs" />
     <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" />
+    <Compile Include="Assets/Shahed/LevelInitializer.cs" />
     <Compile Include="Assets/StarterAssets/Mobile/Scripts/CanvasInputs/UICanvasControllerInput.cs" />
     <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Models/AmbientOcclusionModel.cs" />
     <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" />
