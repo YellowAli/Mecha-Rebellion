@@ -1,0 +1,17 @@
+Hi! Thanks for purchasing my environmental pack! I hope that you will be satisfied.
+If there should be any questions, feel free to email me exheavyone@gmail.com
+
+
+All you have to do is drag the prefabs from the prefabs folder into your scene and let your creativity do the rest!
+
+If you want to take a look at the scene I've created, double click the Sample Scene File and press 'Generate Lightning' in the Lightning settings to get a better look.
+ADjust the lightning settings of your scene to your own preferences, in order to get your desired look! 
+Feel free to message me up if you are a beginner and need advice!
+
+If you would like to import nature assets into the scene, make sure to add the 'Standard Assets' from Unity to your project.
+You can do that by selecting that option when creating the project or import them from the Unity Asset Store.
+
+
+
+
+Have fun! 
