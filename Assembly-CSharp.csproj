@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8EB71849-FC29-49A7-F171-49977B599208}</ProjectGuid>
+    <ProjectGuid>{3B92B011-DCCB-E03F-446D-47A549CF5FA9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -61,7 +61,6 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2023.2.8f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <Compile Include="Assets\GreenForest\PostProcessing\Runtime\Models\FogModel.cs" />
     <Compile Include="Assets\GreenForest\PostProcessing\Runtime\Components\BloomComponent.cs" />
     <Compile Include="Assets\GreenForest\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
@@ -90,7 +89,9 @@
     <Compile Include="Assets\Finlay\Scripts\JetBehaviour.cs" />
     <Compile Include="Assets\GreenForest\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
     <Compile Include="Assets\GreenForest\PostProcessing\Runtime\Components\TaaComponent.cs" />
+    <Compile Include="Assets\Shahed\SwitchScenes.cs" />
     <Compile Include="Assets\GreenForest\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
+    <Compile Include="Assets\Shahed\PersistentData.cs" />
     <Compile Include="Assets\GreenForest\PostProcessing\Runtime\PostProcessingProfile.cs" />
     <Compile Include="Assets\AliE\Scripts\WeaponBehaviour.cs" />
     <Compile Include="Assets\GreenForest\PostProcessing\Runtime\Components\GrainComponent.cs" />
@@ -106,6 +107,7 @@
     <Compile Include="Assets\GreenForest\PostProcessing\Runtime\Components\FxaaComponent.cs" />
     <Compile Include="Assets\GreenForest\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
     <Compile Include="Assets\GreenForest\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
+    <Compile Include="Assets\Shahed\LevelInitializer.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs" />
     <Compile Include="Assets\GreenForest\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
     <Compile Include="Assets\GreenForest\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
@@ -123,72 +125,6 @@
     <Compile Include="Assets\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
     <Compile Include="Assets\GreenForest\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
     <Compile Include="Assets\GreenForest\PostProcessing\Runtime\Components\UserLutComponent.cs" />
-=======
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Models/FogModel.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Components/BloomComponent.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Components/ChromaticAberrationComponent.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Models/UserLutModel.cs" />
-    <Compile Include="Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualTouchZone.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/PostProcessingContext.cs" />
-    <Compile Include="Assets/Finlay/Scripts/BeamBehaviour.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Components/MotionBlurComponent.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Models/DepthOfFieldModel.cs" />
-    <Compile Include="Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualJoystick.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/PostProcessingBehaviour.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Utilities/CustomMotionTexture/ExampleWheelController.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Models/EyeAdaptationModel.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/PostProcessingComponent.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Models/AntialiasingModel.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Attributes/TrackballAttribute.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Models/VignetteModel.cs" />
-    <Compile Include="Assets/AliA/Scripts/MoveCamera.cs" />
-    <Compile Include="Assets/AliE/Scripts/EnemyBehaviour.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Utils/ColorGradingCurve.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Models/DitheringModel.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Attributes/TrackballGroupAttribute.cs" />
-    <Compile Include="Assets/StarterAssets/Mobile/Scripts/Utilities/MobileDisableAutoSwitchControls.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Components/DitheringComponent.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs" />
-    <Compile Include="Assets/Finlay/Scripts/JetBehaviour.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Utils/GraphicsUtils.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Components/TaaComponent.cs" />
-    <Compile Include="Assets/Shahed/SwitchScenes.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Models/ChromaticAberrationModel.cs" />
-    <Compile Include="Assets/Shahed/PersistentData.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/PostProcessingProfile.cs" />
-    <Compile Include="Assets/AliE/Scripts/WeaponBehaviour.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Components/GrainComponent.cs" />
-    <Compile Include="Assets/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Utils/RenderTextureFactory.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Models/BuiltinDebugViewsModel.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Components/DepthOfFieldComponent.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/PostProcessingModel.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Components/ColorGradingComponent.cs" />
-    <Compile Include="Assets/AliA/Scripts/PlayerMovement.cs" />
-    <Compile Include="Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualButton.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Components/FxaaComponent.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Models/ScreenSpaceReflectionModel.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs" />
-    <Compile Include="Assets/Shahed/LevelInitializer.cs" />
-    <Compile Include="Assets/StarterAssets/Mobile/Scripts/CanvasInputs/UICanvasControllerInput.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Models/AmbientOcclusionModel.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Models/MotionBlurModel.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Attributes/MinAttribute.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Models/BloomModel.cs" />
-    <Compile Include="Assets/AliA/Scripts/PlayerCam.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Components/FogComponent.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Models/ColorGradingModel.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Models/GrainModel.cs" />
-    <Compile Include="Assets/StarterAssets/ThirdPersonController/Scripts/BasicRigidBodyPush.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Utils/MaterialFactory.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Components/VignetteComponent.cs" />
-    <Compile Include="Assets/Old Hangar/Demo/Script/ThirdPersonCamera.cs" />
-    <Compile Include="Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Attributes/GetSetAttribute.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Runtime/Components/UserLutComponent.cs" />
->>>>>>> 5f43a4c152757362e40b4a68037864ae9742c2df
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TerrainSampleAssets\ThirdPartyNotices.txt" />
@@ -234,6 +170,7 @@
     <None Include="Assets\GreenForest\PostProcessing\Resources\Shaders\Bloom.cginc" />
     <None Include="Assets\GreenForest\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
     <None Include="Assets\GreenForest\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
+    <None Include="Assets\MILITARY BASE\Information.txt" />
     <None Include="Assets\TerrainSampleAssets\ShaderGraphs\CustomFunctions\CustomLighting.hlsl" />
   </ItemGroup>
   <ItemGroup>
