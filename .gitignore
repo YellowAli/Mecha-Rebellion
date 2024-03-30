@@ -1,8 +1,0 @@
-# Unity specific
-Library/
-Logs/
-UserSettings/
-
-# OS specific
-.DS_Store
-Library/
