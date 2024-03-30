@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c32ea0d73433c4958beab886e6556e34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  laserBeam: {fileID: 0}
+  laserBeam: {fileID: 8161459582739215130, guid: 3c9849581cffe46f79415943a8c8d4b4, type: 3}
   tiltAmount: 30
   health: 100
   forwardSpeed: 10
