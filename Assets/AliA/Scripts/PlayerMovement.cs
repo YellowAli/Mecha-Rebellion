@@ -7,6 +7,7 @@ public class PlayerMovementTutorial : MonoBehaviour
 {
     [Header("Movement")]
     public float moveSpeed;
+    public float sprintMultiplier;
 
     public float groundDrag;
 
@@ -20,6 +21,7 @@ public class PlayerMovementTutorial : MonoBehaviour
 
     [Header("Keybinds")]
     public KeyCode jumpKey = KeyCode.Space;
+    public KeyCode sprintKey = KeyCode.LeftShift; // Added sprint key
 
     [Header("Ground Check")]
     public float playerHeight;
@@ -41,6 +43,10 @@ public class PlayerMovementTutorial : MonoBehaviour
         rb.freezeRotation = true;
 
         readyToJump = true;
+
+        // Initialize walk speed and sprint speed
+        walkSpeed = moveSpeed;
+        sprintSpeed = moveSpeed * sprintMultiplier;
     }
 
     private void Update()
@@ -68,8 +74,18 @@ public class PlayerMovementTutorial : MonoBehaviour
         horizontalInput = Input.GetAxisRaw("Horizontal");
         verticalInput = Input.GetAxisRaw("Vertical");
 
+        // Sprint input
+        if (Input.GetKeyDown(sprintKey))
+        {
+            moveSpeed = sprintSpeed;
+        }
+        if (Input.GetKeyUp(sprintKey))
+        {
+            moveSpeed = walkSpeed;
+        }
+
         // when to jump
-        if (Input.GetKey(jumpKey) && readyToJump && grounded)
+        if (Input.GetKeyDown(jumpKey) && readyToJump && grounded)
         {
             readyToJump = false;
 
