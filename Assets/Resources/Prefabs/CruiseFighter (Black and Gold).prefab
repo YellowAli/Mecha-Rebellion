@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 447016}
   - component: {fileID: 8316270762943845457}
+  - component: {fileID: -8662890769921842440}
   m_Layer: 0
   m_Name: CruiseFighter (Black and Gold)
   m_TagString: Plane
@@ -25,15 +26,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 103844}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 975.3885, y: 9, z: 209.1207}
+  m_LocalRotation: {x: -0.0982615, y: 0.8698861, z: 0.19284901, w: 0.44322923}
+  m_LocalPosition: {x: 960, y: 148, z: 177}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 412676}
   - {fileID: 427992}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -25, y: 126, z: 0}
 --- !u!114 &8316270762943845457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46,12 +47,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c32ea0d73433c4958beab886e6556e34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  laserBeam: {fileID: 0}
+  laserBeam: {fileID: 8161459582739215130, guid: 3c9849581cffe46f79415943a8c8d4b4, type: 3}
   tiltAmount: 30
   health: 100
   forwardSpeed: 10
   pitchSpeed: 100
   rollSpeed: 100
+--- !u!65 &-8662890769921842440
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103844}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2, y: 3, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &112174
 GameObject:
   m_ObjectHideFlags: 0

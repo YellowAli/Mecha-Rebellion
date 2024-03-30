@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class LevelInitializer : MonoBehaviour
 {
-    private Vector3 desiredPosition = new Vector3(975f, 6.77f, 209f);
+    private Vector3 desiredPosition = new Vector3(960F, 148F, 177F);
     private Quaternion desiredRotation = Quaternion.identity; // Set this to how you want the plane rotated
 
     void Start()
