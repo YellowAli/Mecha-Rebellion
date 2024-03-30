@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{8EB71849-FC29-49A7-F171-49977B599208}|">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Shahed/PersistentData.cs">
+    <Files>
+      <File FileName="Assets/Shahed/SwitchScenes.cs" Line="2" Column="1" />
+      <File FileName="Assets/Shahed/LevelInitializer.cs" Line="19" Column="1" />
+      <File FileName="Assets/Shahed/PersistentData.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="groupproject-team_3">
+            <Node name="Assets" expanded="True">
+              <Node name="Shahed" expanded="True">
+                <Node name="PersistentData.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d96373f7-c905-4ca1-8d90-f7f5e2fa1d9c" />
+</Properties>

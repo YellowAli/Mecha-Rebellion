@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a78c64f4844f99e4aa73ae88af78b199
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 22762
+  packageName: Green Forest
+  packageVersion: 1.0
+  assetPath: Assets/GreenForest/Prefabs/Pinetree1.prefab
+  uploadId: 235056

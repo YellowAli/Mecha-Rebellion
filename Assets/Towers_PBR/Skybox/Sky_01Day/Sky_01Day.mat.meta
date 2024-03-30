@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e36de5cbadf33c14c8fb3e4f79c93caa
+timeCreated: 1498596903
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95705
+  packageName: Towers PBR Pack
+  packageVersion: 2.0
+  assetPath: Assets/Towers_PBR/Skybox/Sky_01Day/Sky_01Day.mat
+  uploadId: 289857

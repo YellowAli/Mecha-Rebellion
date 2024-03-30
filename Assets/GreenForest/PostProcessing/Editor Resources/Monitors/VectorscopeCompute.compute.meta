@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 45de9ff58691e934c9810dc23de2ba50
+timeCreated: 1459956391
+licenseType: Store
+ComputeShaderImporter:
+  currentAPIMask: 4
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 22762
+  packageName: Green Forest
+  packageVersion: 1.0
+  assetPath: Assets/GreenForest/PostProcessing/Editor Resources/Monitors/VectorscopeCompute.compute
+  uploadId: 235056
