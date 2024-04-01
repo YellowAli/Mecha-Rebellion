@@ -28,6 +28,7 @@ public class PlayerMovementTutorial : MonoBehaviour
     public LayerMask groundMask;
     bool grounded;
 
+
     public Transform orientation;
 
     float horizontalInput;
@@ -51,8 +52,13 @@ public class PlayerMovementTutorial : MonoBehaviour
 
     private void Update()
     {
+
+        Vector3 rayStart = transform.position + Vector3.up * 0.1f;
+
+        float rayLength = playerHeight * 0.5f + 0.3f + 0.1f;
+
         // ground check
-        grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.3f, groundMask);
+        grounded = Physics.Raycast(rayStart, Vector3.down, out RaycastHit hit, rayLength, groundMask);
 
         MyInput();
         SpeedControl();
@@ -132,4 +138,6 @@ public class PlayerMovementTutorial : MonoBehaviour
     {
         readyToJump = true;
     }
+
+    
 }
