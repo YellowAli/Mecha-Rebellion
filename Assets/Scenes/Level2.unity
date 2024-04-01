@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 85560874}
   - component: {fileID: 85560873}
   - component: {fileID: 85560872}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: CanyonTerrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
