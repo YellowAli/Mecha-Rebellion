@@ -1051,11 +1051,15 @@ PrefabInstance:
     - target: {fileID: 6881530157803619794, guid: 88ea2f885b78d46e9a380e53283bef22, type: 3}
       propertyPath: attackPoint
       value: 
-      objectReference: {fileID: 605168783}
+      objectReference: {fileID: 1440933672}
     - target: {fileID: 6881530157803619794, guid: 88ea2f885b78d46e9a380e53283bef22, type: 3}
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 1741099697}
+    - target: {fileID: 8557446504391367456, guid: 88ea2f885b78d46e9a380e53283bef22, type: 3}
+      propertyPath: m_Name
+      value: AttackPoint5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1809,11 +1813,15 @@ PrefabInstance:
     - target: {fileID: 6881530157803619794, guid: 88ea2f885b78d46e9a380e53283bef22, type: 3}
       propertyPath: attackPoint
       value: 
-      objectReference: {fileID: 174006554}
+      objectReference: {fileID: 2355240}
     - target: {fileID: 6881530157803619794, guid: 88ea2f885b78d46e9a380e53283bef22, type: 3}
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 1741099697}
+    - target: {fileID: 8557446504391367456, guid: 88ea2f885b78d46e9a380e53283bef22, type: 3}
+      propertyPath: m_Name
+      value: AttackPoint4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1910,11 +1918,15 @@ PrefabInstance:
     - target: {fileID: 6881530157803619794, guid: 88ea2f885b78d46e9a380e53283bef22, type: 3}
       propertyPath: attackPoint
       value: 
-      objectReference: {fileID: 1440933672}
+      objectReference: {fileID: 1716131943}
     - target: {fileID: 6881530157803619794, guid: 88ea2f885b78d46e9a380e53283bef22, type: 3}
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 1741099697}
+    - target: {fileID: 8557446504391367456, guid: 88ea2f885b78d46e9a380e53283bef22, type: 3}
+      propertyPath: m_Name
+      value: AttackPoint3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6086,7 +6098,7 @@ PrefabInstance:
     - target: {fileID: 6881530157803619794, guid: 88ea2f885b78d46e9a380e53283bef22, type: 3}
       propertyPath: attackPoint
       value: 
-      objectReference: {fileID: 1716131943}
+      objectReference: {fileID: 605168783}
     - target: {fileID: 6881530157803619794, guid: 88ea2f885b78d46e9a380e53283bef22, type: 3}
       propertyPath: playerTransform
       value: 
@@ -6666,11 +6678,15 @@ PrefabInstance:
     - target: {fileID: 6881530157803619794, guid: 88ea2f885b78d46e9a380e53283bef22, type: 3}
       propertyPath: attackPoint
       value: 
-      objectReference: {fileID: 2355240}
+      objectReference: {fileID: 174006554}
     - target: {fileID: 6881530157803619794, guid: 88ea2f885b78d46e9a380e53283bef22, type: 3}
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 1741099697}
+    - target: {fileID: 8557446504391367456, guid: 88ea2f885b78d46e9a380e53283bef22, type: 3}
+      propertyPath: m_Name
+      value: AttackPoint2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
