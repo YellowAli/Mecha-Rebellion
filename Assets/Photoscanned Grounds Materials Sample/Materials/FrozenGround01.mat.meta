@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 148fbd88cae488b4c9119a909726e711
+timeCreated: 1454696559
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 55437
+  packageName: Photoscanned Grounds Materials Sample
+  packageVersion: 1.0
+  assetPath: Assets/Photoscanned Grounds Materials Sample/Materials/FrozenGround01.mat
+  uploadId: 101827

@@ -66,6 +66,7 @@
     <Compile Include="Assets/AliE/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleScripts/CreateSinShapedLineStrip.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs" />
     <Compile Include="Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualTouchZone.cs" />
+    <Compile Include="Assets/AliE/Scripts/TurretEnemyBehaviour.cs" />
     <Compile Include="Assets/AliE/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Scripts/SpawnEffect.cs" />
     <Compile Include="Assets/Finlay/Scripts/BeamBehaviour.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs" />
@@ -1394,26 +1395,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="ScriptableWidget.Editor.csproj">
-      <Project>{C74339EE-7426-5C06-3802-11E518B9F8DC}</Project>
-      <Name>ScriptableWidget.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="KAnimationCore.Editor.csproj">
-      <Project>{9628FF78-8C49-DEBA-B917-4E407D6AFF66}</Project>
-      <Name>KAnimationCore.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="FPSAnimationFramework.Runtime.csproj">
-      <Project>{6B56447D-74FA-46F2-326F-9B065656A6E0}</Project>
-      <Name>FPSAnimationFramework.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="KAnimationCore.Runtime.csproj">
-      <Project>{930F16F2-EEE8-5B37-0A4A-61D2CC147934}</Project>
-      <Name>KAnimationCore.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="FPSAnimationFramework.Editor.csproj">
-      <Project>{73F64090-A1F8-4CD2-4915-0C20A2B88CD2}</Project>
-      <Name>FPSAnimationFramework.Editor</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)/Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

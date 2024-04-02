@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 447016}
   - component: {fileID: 8316270762943845457}
   - component: {fileID: -8662890769921842440}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CruiseFighter (Black and Gold)
   m_TagString: Plane
   m_Icon: {fileID: 0}
@@ -85,7 +85,7 @@ GameObject:
   - component: {fileID: 427992}
   - component: {fileID: 3366016}
   - component: {fileID: 2317168}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SpaceCruiser
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -174,7 +174,7 @@ GameObject:
   - component: {fileID: 412676}
   - component: {fileID: 3341534}
   - component: {fileID: 2306996}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Exhaust Outlet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -260,7 +260,7 @@ GameObject:
   - component: {fileID: 495464}
   - component: {fileID: 19847230}
   - component: {fileID: 19937238}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}

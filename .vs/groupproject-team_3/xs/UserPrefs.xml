@@ -2,38 +2,21 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/AliE/Scripts/TurretEnemyBehaviour.cs">
     <Files>
       <File FileName="Assets/Shahed/SwitchScenes.cs" />
-      <File FileName="Assets/Shahed/LevelInitializer.cs" />
+      <File FileName="Assets/Shahed/LevelInitializer.cs" Line="36" Column="1" />
       <File FileName="Assets/Shahed/PersistentData.cs" />
       <File FileName="Assets/AliE/Scripts/WeaponBehaviour.cs" Line="26" Column="5" />
       <File FileName="Assets/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleScripts/ShotBehavior.cs" Line="25" Column="1" />
-      <File FileName="Assets/AliE/Scripts/EnemyBehaviour.cs" Line="63" Column="10" />
-      <File FileName="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs" Line="5" Column="1" />
+      <File FileName="Assets/AliE/Scripts/EnemyBehaviour.cs" Line="177" Column="6" />
+      <File FileName="Assets/AliE/Scripts/CurretEnemyBehaviour.cs" Line="41" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="groupproject-team_3" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="AliE" expanded="True">
-                <Node name="Scripts" expanded="True" />
-              </Node>
-              <Node name="Shahed" expanded="True" />
-              <Node name="TextMesh Pro" expanded="True">
-                <Node name="Examples &amp; Extras" expanded="True">
-                  <Node name="Scripts" expanded="True" />
-                </Node>
-              </Node>
-              <Node name="VolumetricLines" expanded="True">
-                <Node name="BuiltInRenderPipeline" expanded="True">
-                  <Node name="ExampleScenes" expanded="True">
-                    <Node name="ExampleScripts" expanded="True" />
-                  </Node>
-                </Node>
-              </Node>
-            </Node>
+          <Node name="groupproject-team_3" expanded="True" selected="True">
+            <Node name="Assets" expanded="True" />
           </Node>
         </State>
       </Pad>

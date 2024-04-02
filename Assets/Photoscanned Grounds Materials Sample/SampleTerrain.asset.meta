@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 29ace6a37c3b13e4588f7791e4ffa36c
+timeCreated: 1454696665
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 55437
+  packageName: Photoscanned Grounds Materials Sample
+  packageVersion: 1.0
+  assetPath: Assets/Photoscanned Grounds Materials Sample/SampleTerrain.asset
+  uploadId: 101827

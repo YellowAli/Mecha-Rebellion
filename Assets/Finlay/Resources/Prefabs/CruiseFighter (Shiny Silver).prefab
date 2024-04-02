@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 498636}
   - component: {fileID: 19844712}
   - component: {fileID: 19937240}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4849,7 +4849,7 @@ GameObject:
   - component: {fileID: 457454}
   - component: {fileID: -3311750887569657037}
   - component: {fileID: -1146187228029493788}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CruiseFighter (Shiny Silver)
   m_TagString: Plane
   m_Icon: {fileID: 0}
@@ -4923,7 +4923,7 @@ GameObject:
   - component: {fileID: 421136}
   - component: {fileID: 3314834}
   - component: {fileID: 2361128}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Exhaust Outlet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5009,7 +5009,7 @@ GameObject:
   - component: {fileID: 488372}
   - component: {fileID: 3342854}
   - component: {fileID: 2320212}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SpaceCruiser
   m_TagString: Untagged
   m_Icon: {fileID: 0}

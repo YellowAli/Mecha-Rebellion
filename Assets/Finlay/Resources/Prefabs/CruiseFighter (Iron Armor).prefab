@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 459112}
   - component: {fileID: 7376814074591447514}
   - component: {fileID: -6662456996073530741}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CruiseFighter (Iron Armor)
   m_TagString: Plane
   m_Icon: {fileID: 0}
@@ -50,7 +50,7 @@ MonoBehaviour:
   laserBeam: {fileID: 8161459582739215130, guid: 3c9849581cffe46f79415943a8c8d4b4, type: 3}
   tiltAmount: 30
   health: 100
-  forwardSpeed: 10
+  forwardSpeed: 20
   pitchSpeed: 100
   rollSpeed: 100
 --- !u!65 &-6662456996073530741
@@ -85,7 +85,7 @@ GameObject:
   - component: {fileID: 422860}
   - component: {fileID: 3315002}
   - component: {fileID: 2353832}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SpaceCruiser
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -174,7 +174,7 @@ GameObject:
   - component: {fileID: 470626}
   - component: {fileID: 19867678}
   - component: {fileID: 19990924}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5012,7 +5012,7 @@ GameObject:
   - component: {fileID: 494766}
   - component: {fileID: 3361044}
   - component: {fileID: 2378322}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Exhaust Outlet
   m_TagString: Untagged
   m_Icon: {fileID: 0}

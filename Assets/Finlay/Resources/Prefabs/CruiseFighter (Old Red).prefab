@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 422996}
   - component: {fileID: 3331960}
   - component: {fileID: 2340086}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SpaceCruiser
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100,7 +100,7 @@ GameObject:
   - component: {fileID: 477694}
   - component: {fileID: 19828128}
   - component: {fileID: 19987850}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4938,7 +4938,7 @@ GameObject:
   - component: {fileID: 434884}
   - component: {fileID: 2032668196323768475}
   - component: {fileID: -5436056453480388581}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CruiseFighter (Old Red)
   m_TagString: Plane
   m_Icon: {fileID: 0}
@@ -5012,7 +5012,7 @@ GameObject:
   - component: {fileID: 436650}
   - component: {fileID: 3383916}
   - component: {fileID: 2319654}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Exhaust Outlet
   m_TagString: Untagged
   m_Icon: {fileID: 0}

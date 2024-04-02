@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7a6019f691eb4ad4cac2852d39fb05da
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 36177
+  packageName: Laser Turret
+  packageVersion: 1
+  assetPath: Assets/Turret/Materials/textureRED.mat
+  uploadId: 366630
