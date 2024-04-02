@@ -61,42 +61,8 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2023.2.8f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/GreenForest/PostProcessing/Editor/Models/MotionBlurModelEditor.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Editor/Models/AntialiasingModelEditor.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Editor/Models/GrainModelEditor.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Editor/Models/ChromaticAberrationEditor.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Editor/Models/ColorGradingModelEditor.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Editor/PostProcessingMonitor.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Editor/Models/BuiltinDebugViewsEditor.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Editor/Monitors/ParadeMonitor.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Editor/PostProcessingInspector.cs" />
-    <Compile Include="Assets/UnityTechnologies/ParticlePack/Shared/Ramps/Editor/RampAssetEditor.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Editor/Models/AmbientOcclusionModelEditor.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Editor/Utils/EditorResources.cs" />
-    <Compile Include="Assets/UnityTechnologies/ParticlePack/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Editor/Models/DitheringModelEditor.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Editor/PostProcessingModelEditor.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Editor/PostProcessingBehaviourEditor.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Editor/Monitors/VectorscopeMonitor.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Editor/Models/DefaultPostFxModelEditor.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Editor/Utils/FxStyles.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Editor/Attributes/PostProcessingModelEditorAttribute.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Editor/Utils/EditorGUIHelper.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Editor/Models/ScreenSpaceReflectionModelEditor.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Editor/Models/DepthOfFieldModelEditor.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Editor/Models/UserLutModelEditor.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Editor/Monitors/WaveformMonitor.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Editor/Models/BloomModelEditor.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Editor/Models/FogModelEditor.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Editor/Utils/ReflectionUtils.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Editor/Models/VignetteModelEditor.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Editor/PostProcessingFactory.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Editor/PropertyDrawers/MinDrawer.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Editor/Utils/CurveEditor.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Editor/Monitors/HistogramMonitor.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Editor/Models/EyeAdaptationModelEditor.cs" />
-    <Compile Include="Assets/GreenForest/PostProcessing/Editor/PropertyDrawers/GetSetDrawer.cs" />
+    <Compile Include="Assets/AliE/UnityTechnologies/ParticlePack/Shared/Ramps/Editor/RampAssetEditor.cs" />
+    <Compile Include="Assets/AliE/UnityTechnologies/ParticlePack/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -1352,6 +1318,26 @@
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{3B92B011-DCCB-E03F-446D-47A549CF5FA9}</Project>
       <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="ScriptableWidget.Editor.csproj">
+      <Project>{C74339EE-7426-5C06-3802-11E518B9F8DC}</Project>
+      <Name>ScriptableWidget.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="KAnimationCore.Editor.csproj">
+      <Project>{9628FF78-8C49-DEBA-B917-4E407D6AFF66}</Project>
+      <Name>KAnimationCore.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="FPSAnimationFramework.Runtime.csproj">
+      <Project>{6B56447D-74FA-46F2-326F-9B065656A6E0}</Project>
+      <Name>FPSAnimationFramework.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="KAnimationCore.Runtime.csproj">
+      <Project>{930F16F2-EEE8-5B37-0A4A-61D2CC147934}</Project>
+      <Name>KAnimationCore.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="FPSAnimationFramework.Editor.csproj">
+      <Project>{73F64090-A1F8-4CD2-4915-0C20A2B88CD2}</Project>
+      <Name>FPSAnimationFramework.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)/Microsoft.CSharp.targets" />

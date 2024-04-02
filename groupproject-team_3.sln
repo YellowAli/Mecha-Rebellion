@@ -1,9 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FPSAnimationFramework.Runtime", "FPSAnimationFramework.Runtime.csproj", "{6B56447D-74FA-46F2-326F-9B065656A6E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FPSAnimationFramework.Editor", "FPSAnimationFramework.Editor.csproj", "{73F64090-A1F8-4CD2-4915-0C20A2B88CD2}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{3B92B011-DCCB-E03F-446D-47A549CF5FA9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KAnimationCore.Runtime", "KAnimationCore.Runtime.csproj", "{930F16F2-EEE8-5B37-0A4A-61D2CC147934}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KAnimationCore.Editor", "KAnimationCore.Editor.csproj", "{9628FF78-8C49-DEBA-B917-4E407D6AFF66}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{7F9C5FC2-6649-F613-C0AD-C5155FD46012}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScriptableWidget.Editor", "ScriptableWidget.Editor.csproj", "{C74339EE-7426-5C06-3802-11E518B9F8DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,14 +21,34 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B56447D-74FA-46F2-326F-9B065656A6E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B56447D-74FA-46F2-326F-9B065656A6E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B56447D-74FA-46F2-326F-9B065656A6E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B56447D-74FA-46F2-326F-9B065656A6E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73F64090-A1F8-4CD2-4915-0C20A2B88CD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73F64090-A1F8-4CD2-4915-0C20A2B88CD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73F64090-A1F8-4CD2-4915-0C20A2B88CD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73F64090-A1F8-4CD2-4915-0C20A2B88CD2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3B92B011-DCCB-E03F-446D-47A549CF5FA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3B92B011-DCCB-E03F-446D-47A549CF5FA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B92B011-DCCB-E03F-446D-47A549CF5FA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B92B011-DCCB-E03F-446D-47A549CF5FA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{930F16F2-EEE8-5B37-0A4A-61D2CC147934}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{930F16F2-EEE8-5B37-0A4A-61D2CC147934}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{930F16F2-EEE8-5B37-0A4A-61D2CC147934}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{930F16F2-EEE8-5B37-0A4A-61D2CC147934}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9628FF78-8C49-DEBA-B917-4E407D6AFF66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9628FF78-8C49-DEBA-B917-4E407D6AFF66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9628FF78-8C49-DEBA-B917-4E407D6AFF66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9628FF78-8C49-DEBA-B917-4E407D6AFF66}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7F9C5FC2-6649-F613-C0AD-C5155FD46012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7F9C5FC2-6649-F613-C0AD-C5155FD46012}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F9C5FC2-6649-F613-C0AD-C5155FD46012}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F9C5FC2-6649-F613-C0AD-C5155FD46012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C74339EE-7426-5C06-3802-11E518B9F8DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C74339EE-7426-5C06-3802-11E518B9F8DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C74339EE-7426-5C06-3802-11E518B9F8DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C74339EE-7426-5C06-3802-11E518B9F8DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

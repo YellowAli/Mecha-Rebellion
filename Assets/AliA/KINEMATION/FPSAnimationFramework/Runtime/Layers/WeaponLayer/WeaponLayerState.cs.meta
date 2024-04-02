@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 9890df93790e41d0bc1cc3927702712f
+timeCreated: 1709731758
+AssetOrigin:
+  serializedVersion: 1
+  productId: 238641
+  packageName: FPS Animation Framework
+  packageVersion: 4.1.0
+  assetPath: Assets/KINEMATION/FPSAnimationFramework/Runtime/Layers/WeaponLayer/WeaponLayerState.cs
+  uploadId: 654587
