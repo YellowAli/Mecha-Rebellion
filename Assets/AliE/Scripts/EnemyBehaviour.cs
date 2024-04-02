@@ -6,7 +6,7 @@ using UnityEngine.AI;
 public class EnemyBehaviour : MonoBehaviour
 {
  
-    private bool alive = true;
+    public bool alive = true;
     public float health;
     public NavMeshAgent agent;
     public Transform playerTransform;
