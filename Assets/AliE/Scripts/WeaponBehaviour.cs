@@ -2,20 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.UIElements;
 
 public class WeaponBehaviour : MonoBehaviour
 {
     public GameObject bullet;
 
+    public Rigidbody rigid;
+    private bool alive = true;
+    public float health;
+
     public NavMeshAgent agent;
     public Transform playerTransform;
 
-    public LayerMask playerMask;
+    public LayerMask playerMask, bulletMask;
 
     public float attackIncrements;
     bool attackOccured;
 
     public float sightRange, attackRange;
+
     public bool withinSightRange, withinAttackRange;
     public Transform attackPoint;
 
@@ -30,9 +36,16 @@ public class WeaponBehaviour : MonoBehaviour
         withinSightRange = Physics.CheckSphere(transform.position, sightRange, playerMask);
         withinAttackRange = Physics.CheckSphere(transform.position, attackRange, playerMask);
 
-        if (withinSightRange && withinAttackRange)
+        if (withinSightRange && withinAttackRange && alive)
         {
             EnemyAttack();
+        }
+
+        if (health == 0)
+        {
+            alive = false;
+            rigid.useGravity = true;
+
         }
 
     }
@@ -90,5 +103,15 @@ public class WeaponBehaviour : MonoBehaviour
         //Instantiate muzzle flash, if you have one
         if (muzzleFlash != null)
             Instantiate(muzzleFlash, attackPoint.position, Quaternion.identity);
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+
+        if (collision.gameObject.tag == "mainBullet")
+        {
+
+            health = health - 50;
+        }
     }
 }

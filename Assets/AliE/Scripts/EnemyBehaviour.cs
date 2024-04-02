@@ -5,11 +5,17 @@ using UnityEngine.AI;
 
 public class EnemyBehaviour : MonoBehaviour
 {
+ 
+    private bool alive = true;
+    public float health;
     public NavMeshAgent agent;
     public Transform playerTransform;
     public GameObject bullet;
+    public GameObject fire;
 
-    public LayerMask groundMask, playerMask;
+    public Transform attackPoint;
+
+    public LayerMask groundMask, playerMask,bulletMask;
     public Vector3 WalkingPoint;
     bool walkPointOn;
     public float Range;
@@ -19,6 +25,10 @@ public class EnemyBehaviour : MonoBehaviour
 
     public float sightRange, attackRange;
     public bool withinSightRange, withinAttackRange;
+
+    public float spread;
+    public float shootForce, upwardForce;
+    public GameObject muzzleFlash;
 
     // Start is called before the first frame update
     void Start()
@@ -34,19 +44,25 @@ public class EnemyBehaviour : MonoBehaviour
         withinSightRange = Physics.CheckSphere(transform.position, sightRange, playerMask);
         withinAttackRange = Physics.CheckSphere(transform.position, attackRange, playerMask);
 
-        if (!withinSightRange && !withinAttackRange)
+        if (!withinSightRange && !withinAttackRange && alive)
         {
             EnemyPatrol();
         }
 
-        if (withinSightRange && !withinAttackRange)
+        if (withinSightRange && !withinAttackRange && alive)
         {
             EnemyChase();
         }
 
-        if (withinSightRange && withinAttackRange)
+        if (withinSightRange && withinAttackRange && alive)
         {
             EnemyAttack();
+        }
+
+        if(health <= 0)
+        {
+            Instantiate(fire, transform.position, Quaternion.identity);
+            alive = false;
         }
 
 
@@ -100,15 +116,64 @@ public class EnemyBehaviour : MonoBehaviour
 
         if (!attackOccured)
         {
+            Shoot();
             attackOccured = true;
             Invoke(nameof(ResetAttack), attackIncrements);
         }
+    }
+
+    private void Shoot()
+    {
+        Vector3 rayOrigin = transform.position;
+        Vector3 rayDirection = (playerTransform.position - rayOrigin).normalized;
+
+        Ray ray = new Ray(rayOrigin, rayDirection);
+        RaycastHit hit;
+
+        Vector3 targetPoint;
+        if (Physics.Raycast(ray, out hit))
+            targetPoint = hit.point;
+        else
+            targetPoint = ray.GetPoint(75); //Just a point far away from the player
+
+
+        Vector3 directionWithoutSpread = targetPoint - attackPoint.position;
+
+        //Calculate spread
+        float x = Random.Range(-spread, spread);
+        float y = Random.Range(-spread, spread);
+
+        //Calculate new direction with spread
+        Vector3 directionWithSpread = directionWithoutSpread + new Vector3(x, y, 0); //Just add spread to last direction
+
+        //Instantiate bullet/projectile
+        GameObject currentBullet = Instantiate(bullet, attackPoint.position, Quaternion.identity); //store instantiated bullet in currentBullet
+        //Rotate bullet to shoot direction
+        currentBullet.transform.forward = directionWithSpread.normalized;
+
+        //Add forces to bullet
+        currentBullet.GetComponent<Rigidbody>().AddForce(directionWithSpread.normalized * shootForce, ForceMode.Impulse);
+        currentBullet.GetComponent<Rigidbody>().AddForce(transform.up * upwardForce, ForceMode.Impulse);
+
+        //Instantiate muzzle flash, if you have one
+        if (muzzleFlash != null)
+            Instantiate(muzzleFlash, attackPoint.position, Quaternion.identity);
     }
 
     private void ResetAttack()
     {
         attackOccured = false;
 
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log("here");
+        if(collision.gameObject.tag == "mainBullet")
+        {
+            Debug.Log("Here");
+            health = health - 50;
+        }
     }
 
 }
