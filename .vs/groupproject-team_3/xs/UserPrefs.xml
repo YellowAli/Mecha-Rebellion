@@ -1,29 +1,45 @@
 ﻿<Properties StartupConfiguration="{3B92B011-DCCB-E03F-446D-47A549CF5FA9}|">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/AliE/Scripts/TurretEnemyBehaviour.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Finlay/Scripts/JetBehaviour.cs">
     <Files>
       <File FileName="Assets/Shahed/SwitchScenes.cs" />
-      <File FileName="Assets/Shahed/LevelInitializer.cs" Line="36" Column="1" />
+      <File FileName="Assets/Shahed/LevelInitializer.cs" />
       <File FileName="Assets/Shahed/PersistentData.cs" />
-      <File FileName="Assets/AliE/Scripts/WeaponBehaviour.cs" Line="26" Column="5" />
-      <File FileName="Assets/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleScripts/ShotBehavior.cs" Line="25" Column="1" />
-      <File FileName="Assets/AliE/Scripts/EnemyBehaviour.cs" Line="177" Column="6" />
-      <File FileName="Assets/AliE/Scripts/CurretEnemyBehaviour.cs" Line="41" Column="6" />
+      <File FileName="Assets/AliE/Scripts/WeaponBehaviour.cs" />
+      <File FileName="Assets/AliE/Scripts/EnemyBehaviour.cs" />
+      <File FileName="Assets/Finlay/Scripts/JetBehaviour.cs" Line="77" Column="55" />
+      <File FileName="Assets/Finlay/Scripts/BeamBehaviour.cs" />
+      <File FileName="Assets/Assets/CyberneticWalrus/Factory_Interior/Prefabs/Air_Duct_01_Corner_02_Prefab_01.prefab" />
+      <File FileName="Assets/Finlay/Scripts/Hoop.cs" Line="15" Column="2" />
+      <File FileName="Assets/Finlay/Scripts/HoopsManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/AliA/Scripts/PlayerMovement.cs" Line="19" Column="46" />
+      <File FileName="Assets/AliE/Scripts/TurretEnemyBehaviour.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="groupproject-team_3" expanded="True" selected="True">
-            <Node name="Assets" expanded="True" />
+          <Node name="groupproject-team_3">
+            <Node name="Assets" expanded="True">
+              <Node name="AliA" expanded="True">
+                <Node name="Scripts" expanded="True" />
+              </Node>
+              <Node name="AliE" expanded="True">
+                <Node name="Scripts" expanded="True" />
+              </Node>
+              <Node name="Finlay" expanded="True">
+                <Node name="Scripts" expanded="True" />
+              </Node>
+              <Node name="Shahed" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="404afd62-8467-4486-b06c-4e55b8d8fa44" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="19efd96a-b865-4c2b-bda2-a0e8f6a4770b" />
 </Properties>

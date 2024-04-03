@@ -11,6 +11,7 @@ public class JetBehaviour : MonoBehaviour
     public float rollSpeed = 100.0f;  // Speed of rolling left or right
 
     private Rigidbody rb; // Reference to the Rigidbody component
+    private KeyCode boostKey = KeyCode.LeftShift;
 
     void Start()
     {
@@ -35,6 +36,7 @@ public class JetBehaviour : MonoBehaviour
 
     void Update()
     {
+        
         if (health > 0)
         {
             // Move the plane forward constantly
@@ -59,23 +61,30 @@ public class JetBehaviour : MonoBehaviour
 
     void HandleMovement()
     {
-        //// Constant forward movement
-        //transform.Translate(Vector3.forward * forwardSpeed * Time.deltaTime);
+        Vector3 movement = Vector3.forward * forwardSpeed * Time.deltaTime;
+        rb.MovePosition(rb.position + transform.TransformDirection(movement));
 
-        //// Pitch control
-        //float pitch = -Input.GetAxis("Vertical") * pitchSpeed * Time.deltaTime;
-        //transform.Rotate(pitch, 0f, 0f, Space.Self);
+        float rotationHorizontal = Input.GetAxis("Horizontal") * rollSpeed * Time.deltaTime;
+        Quaternion turn = Quaternion.Euler(0f, rotationHorizontal, 0f);
+        rb.MoveRotation(rb.rotation * turn);
 
-        //// Roll control
-        //float roll = Input.GetAxis("Horizontal") * rollSpeed * Time.deltaTime;
-        //transform.Rotate(0f, 0f, -roll, Space.Self); // Negative for intuitive left/right roll
-        transform.Translate(Vector3.forward * forwardSpeed * Time.deltaTime);
+        float pitch = -Input.GetAxis("Vertical") * pitchSpeed * Time.deltaTime;
+        Quaternion pitchRotation = Quaternion.Euler(pitch, 0f, 0f);
+        rb.MoveRotation(rb.rotation * pitchRotation);
 
-        float rotation = Input.GetAxis("Horizontal") * rollSpeed * Time.deltaTime;
-        transform.Rotate(0, rotation, 0, Space.World);
+        var eulerRotation = rb.rotation.eulerAngles;
+        eulerRotation.z = 0;
+        rb.rotation = Quaternion.Euler(eulerRotation);
 
-        float rotationVertical = -Input.GetAxis("Vertical") * rollSpeed * Time.deltaTime;
-        transform.Rotate(rotationVertical, 0, 0, Space.Self);
+        // Boost input
+        if (Input.GetKeyDown(boostKey))
+        {
+            forwardSpeed = 30.0f;
+        }
+        if (Input.GetKeyUp(boostKey))
+        {
+            forwardSpeed = 10.0f;
+        }
     }
 
 
@@ -90,6 +99,7 @@ public class JetBehaviour : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
+        rb.angularVelocity = Vector3.zero;
         // Check if the collision is with a laser beam not shot by the player
         if (collision.gameObject.tag == "EnemyLaser")
         {
@@ -100,15 +110,17 @@ public class JetBehaviour : MonoBehaviour
             if (health <= 0)
             {
                 // Trigger any effects or behaviors for when the plane is destroyed
-                OnPlaneDestroyed();
+                DestroyPlane();
             }
         }
     }
 
-    void OnPlaneDestroyed()
+    public void DestroyPlane()
     {
-        // Implement any additional effects upon destruction, like an explosion
-        Debug.Log("Plane Destroyed");
-        // Note: Consider adding an explosion effect or sound here
+        // Here you can add an explosion effect or sound if you want
+        Destroy(gameObject);
+
+        // Also consider what to do after the plane is destroyed
+        // For example, triggering a game over UI or respawning the plane
     }
 }
