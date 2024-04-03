@@ -1,0 +1,34 @@
+fileFormatVersion: 2
+guid: ed721c78f11b8064e87cae08d871e548
+labels:
+- Robot
+- Mech
+- Modular
+- Constructor
+- Pack
+- Mobile
+- Lowpoly
+- Cartoon
+- Battle
+- Military
+- Sci-fi
+- SciFi
+- Animated
+- Walking
+- Weapon
+- Gun
+- Upgrade
+- Laser
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 39969
+  packageName: 'Mech Constructor: Light and Medium Robots'
+  packageVersion: 2.2
+  assetPath: Assets/Mech_Constructor_LtMed/Prefabs/Weapon_laser_lvl5.prefab
+  uploadId: 609391

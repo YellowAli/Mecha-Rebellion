@@ -53,8 +53,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1901245927194888, guid: bb98861c48ad2024ca93498c7dd93a6c, type: 3}
     - target: {fileID: 5833755436433758636, guid: fd801e62f261847b6a5d077d1cc30937, type: 3}
+      propertyPath: Range
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5833755436433758636, guid: fd801e62f261847b6a5d077d1cc30937, type: 3}
       propertyPath: health
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5833755436433758636, guid: fd801e62f261847b6a5d077d1cc30937, type: 3}
+      propertyPath: spread
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5833755436433758636, guid: fd801e62f261847b6a5d077d1cc30937, type: 3}
       propertyPath: hitRange
@@ -62,7 +70,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5833755436433758636, guid: fd801e62f261847b6a5d077d1cc30937, type: 3}
       propertyPath: shootForce
-      value: 300
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5833755436433758636, guid: fd801e62f261847b6a5d077d1cc30937, type: 3}
       propertyPath: sightRange

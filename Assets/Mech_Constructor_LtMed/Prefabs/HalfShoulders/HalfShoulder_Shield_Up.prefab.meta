@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a1961ce8781977646a43431d923b266d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 39969
+  packageName: 'Mech Constructor: Light and Medium Robots'
+  packageVersion: 2.2
+  assetPath: Assets/Mech_Constructor_LtMed/Prefabs/HalfShoulders/HalfShoulder_Shield_Up.prefab
+  uploadId: 609391

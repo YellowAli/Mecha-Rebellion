@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1163b33f7ee8cea46b06b2803b9f134e
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 39969
+  packageName: 'Mech Constructor: Light and Medium Robots'
+  packageVersion: 2.2
+  assetPath: Assets/Mech_Constructor_LtMed/Readme_MC_LtMed.txt
+  uploadId: 609391

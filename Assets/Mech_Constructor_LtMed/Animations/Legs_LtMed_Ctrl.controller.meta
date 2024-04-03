@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7c903991daebc8049b0cc855e8e533a4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 39969
+  packageName: 'Mech Constructor: Light and Medium Robots'
+  packageVersion: 2.2
+  assetPath: Assets/Mech_Constructor_LtMed/Animations/Legs_LtMed_Ctrl.controller
+  uploadId: 609391

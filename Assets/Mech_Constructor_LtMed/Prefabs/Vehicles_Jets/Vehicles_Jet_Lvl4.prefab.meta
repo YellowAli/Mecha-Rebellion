@@ -1,0 +1,33 @@
+fileFormatVersion: 2
+guid: 4c659f071aa9580449cf883ccfbd2c51
+labels:
+- Modular
+- Constructor
+- Mobile
+- Lowpoly
+- Cartoon
+- Military
+- Battle
+- Sci-fi
+- SciFi
+- Upgrade
+- Multilevel
+- Jet
+- Flying
+- Plane
+- Low-poly
+- Hand-painted
+- Handpainted
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 39969
+  packageName: 'Mech Constructor: Light and Medium Robots'
+  packageVersion: 2.2
+  assetPath: Assets/Mech_Constructor_LtMed/Prefabs/Vehicles_Jets/Vehicles_Jet_Lvl4.prefab
+  uploadId: 609391

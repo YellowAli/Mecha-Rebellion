@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e56ced12f55255244afe494931353c64
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 39969
+  packageName: 'Mech Constructor: Light and Medium Robots'
+  packageVersion: 2.2
+  assetPath: Assets/Mech_Constructor_LtMed/Prefabs/Top_anim_weapons_bounce.prefab
+  uploadId: 609391

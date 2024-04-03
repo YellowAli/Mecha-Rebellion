@@ -1,0 +1,34 @@
+fileFormatVersion: 2
+guid: d2c7a7ac25d79554c9e6982e669969dc
+labels:
+- Robot
+- Mech
+- Modular
+- Constructor
+- Pack
+- Mobile
+- Lowpoly
+- Cartoon
+- Battle
+- Military
+- Sci-fi
+- SciFi
+- Animated
+- Walking
+- Weapon
+- Gun
+- Upgrade
+- Rocket
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 39969
+  packageName: 'Mech Constructor: Light and Medium Robots'
+  packageVersion: 2.2
+  assetPath: Assets/Mech_Constructor_LtMed/Prefabs/Weapon_rockets_2x_lvl1.prefab
+  uploadId: 609391

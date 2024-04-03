@@ -1,0 +1,34 @@
+fileFormatVersion: 2
+guid: 6270b4714e3dbe2439fa0cb92992f335
+labels:
+- Robot
+- Mech
+- Modular
+- Constructor
+- Pack
+- Mobile
+- Lowpoly
+- Cartoon
+- Battle
+- Military
+- Sci-fi
+- SciFi
+- Animated
+- Walking
+- Weapon
+- Gun
+- Upgrade
+- Minigun
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 39969
+  packageName: 'Mech Constructor: Light and Medium Robots'
+  packageVersion: 2.2
+  assetPath: Assets/Mech_Constructor_LtMed/Prefabs/Weapons_minigun_lvl1.prefab
+  uploadId: 609391

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 41979999de67e104983f35322fa96b48
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 39969
+  packageName: 'Mech Constructor: Light and Medium Robots'
+  packageVersion: 2.2
+  assetPath: Assets/Mech_Constructor_LtMed/Materials/A_Base_plane_material.mat
+  uploadId: 609391

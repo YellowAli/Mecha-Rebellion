@@ -1,0 +1,34 @@
+fileFormatVersion: 2
+guid: 16b7e918ee2a93c4da20cda9907ed933
+labels:
+- Robot
+- Mech
+- Modular
+- Constructor
+- Pack
+- Mobile
+- Lowpoly
+- Cartoon
+- Battle
+- Military
+- Sci-fi
+- SciFi
+- Animated
+- Walking
+- Weapon
+- Gun
+- Upgrade
+- Cannon
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 39969
+  packageName: 'Mech Constructor: Light and Medium Robots'
+  packageVersion: 2.2
+  assetPath: Assets/Mech_Constructor_LtMed/Prefabs/Weapon_cannon_lvl3.prefab
+  uploadId: 609391

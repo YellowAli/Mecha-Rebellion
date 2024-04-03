@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d7510150be4d5b544acd5935781f0f64
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 39969
+  packageName: 'Mech Constructor: Light and Medium Robots'
+  packageVersion: 2.2
+  assetPath: Assets/Mech_Constructor_LtMed/Animations/Top_anim_weapons_bounce_Ctrl.controller
+  uploadId: 609391

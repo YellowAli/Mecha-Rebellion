@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2432164409594929461}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: AttackPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42,7 +42,8 @@ GameObject:
   - component: {fileID: 5540082069086661249}
   - component: {fileID: 8967039333770019897}
   - component: {fileID: 7307597700207387754}
-  m_Layer: 0
+  - component: {fileID: -1946916712861527764}
+  m_Layer: 11
   m_Name: Turet01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79,6 +80,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24f04652943cb46a4a457f6b6ac15ddd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 0
   attackPoint: {fileID: 2432164409594929461}
   bullet: {fileID: 0}
   groundMask:
@@ -142,6 +144,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &-1946916712861527764
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7882820195712338625}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 0
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1001 &2738870379487571896
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -153,6 +177,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d4bf64dae66a6384e8abc058dac59762, type: 3}
       propertyPath: m_Name
       value: Weapon
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d4bf64dae66a6384e8abc058dac59762, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d4bf64dae66a6384e8abc058dac59762, type: 3}
       propertyPath: m_RootOrder
@@ -226,6 +254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24f04652943cb46a4a457f6b6ac15ddd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 100
   attackPoint: {fileID: 2432164409594929461}
   bullet: {fileID: 2840517129541372757, guid: 1ceef0f8b5725486d87343b9edbea330, type: 3}
   groundMask:
@@ -264,7 +293,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: d4bf64dae66a6384e8abc058dac59762, type: 3}
 --- !u!4 &2738870379487704376 stripped
@@ -283,6 +312,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9cd2fc318f05d32488acbcd002a80dea, type: 3}
       propertyPath: m_Name
       value: base
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9cd2fc318f05d32488acbcd002a80dea, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9cd2fc318f05d32488acbcd002a80dea, type: 3}
       propertyPath: m_RootOrder
@@ -365,6 +398,6 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 9cd2fc318f05d32488acbcd002a80dea, type: 3}

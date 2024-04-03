@@ -139,5 +139,13 @@ public class PlayerMovementTutorial : MonoBehaviour
         readyToJump = true;
     }
 
-    
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "enemyBullet")
+        {
+            Debug.Log("its working");
+        }
+    }
+
+
 }

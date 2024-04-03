@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 510df4be6239cfe40aa82c6d74c8664a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 39969
+  packageName: 'Mech Constructor: Light and Medium Robots'
+  packageVersion: 2.2
+  assetPath: Assets/Mech_Constructor_LtMed/Prefabs/HalfShoulders/HalfShoulder_Med_Frame.prefab
+  uploadId: 609391

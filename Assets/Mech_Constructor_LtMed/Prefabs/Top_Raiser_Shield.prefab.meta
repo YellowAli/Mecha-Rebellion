@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f9d364131b9f800488501a66c4787e1c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 39969
+  packageName: 'Mech Constructor: Light and Medium Robots'
+  packageVersion: 2.2
+  assetPath: Assets/Mech_Constructor_LtMed/Prefabs/Top_Raiser_Shield.prefab
+  uploadId: 609391

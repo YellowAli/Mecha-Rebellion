@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8709431a1ca50e0409a44f057f836455
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 39969
+  packageName: 'Mech Constructor: Light and Medium Robots'
+  packageVersion: 2.2
+  assetPath: Assets/Mech_Constructor_LtMed/Materials/Source/MC_Humanoids__Source_PSD_Link.txt
+  uploadId: 609391

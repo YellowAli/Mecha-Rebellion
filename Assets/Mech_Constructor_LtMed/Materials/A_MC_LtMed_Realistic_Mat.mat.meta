@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4948634b3fdd2ea459ab929b2134fc41
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 39969
+  packageName: 'Mech Constructor: Light and Medium Robots'
+  packageVersion: 2.2
+  assetPath: Assets/Mech_Constructor_LtMed/Materials/A_MC_LtMed_Realistic_Mat.mat
+  uploadId: 609391
