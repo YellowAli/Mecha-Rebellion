@@ -2,24 +2,25 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/AliE/Scripts/EnemyBehaviour.cs">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0f102b66-dfc6-418f-938b-0efc9e494d76" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Shahed/MainMenuSwitch.cs">
     <Files>
-      <File FileName="Assets/AliE/Scripts/EnemyBehaviour.cs" Line="175" Column="6" />
+      <File FileName="Assets/AliE/Scripts/EnemyBehaviour.cs" />
+      <File FileName="Assets/Shahed/MainMenuSwitch.cs" Line="12" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="groupproject-team_3" expanded="True">
+          <Node name="groupproject-team_3">
             <Node name="Assets" expanded="True">
               <Node name="AliA" expanded="True">
                 <Node name="Scripts" expanded="True" />
               </Node>
               <Node name="AliE" expanded="True">
-                <Node name="Scripts" expanded="True">
-                  <Node name="EnemyBehaviour.cs" selected="True" />
-                </Node>
+                <Node name="Scripts" expanded="True" />
                 <Node name="VolumetricLines" expanded="True">
                   <Node name="BuiltInRenderPipeline" expanded="True">
                     <Node name="ExampleScenes" expanded="True">
@@ -32,13 +33,13 @@
                 <Node name="Scripts" expanded="True" />
               </Node>
               <Node name="HUDscripts" expanded="True" />
-              <Node name="Shahed" expanded="True" />
+              <Node name="Shahed" expanded="True">
+                <Node name="MainMenuSwitch.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b9cb7190-d10a-4567-beec-ec5c7d03af2a" />
 </Properties>

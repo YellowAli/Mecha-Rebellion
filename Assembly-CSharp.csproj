@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{DC302310-C9FD-D741-7B9A-F7FAF161AEE1}</ProjectGuid>
+    <ProjectGuid>{3B92B011-DCCB-E03F-446D-47A549CF5FA9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -73,12 +73,14 @@
     <Compile Include="Assets/Finlay/Scripts/BeamBehaviour.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs" />
     <Compile Include="Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualJoystick.cs" />
+    <Compile Include="Assets/Shahed/MainMenuSwitch.cs" />
     <Compile Include="Assets/AliE/ChildCollisionBoss.cs" />
     <Compile Include="Assets/PlaneShotBehaviour.cs" />
     <Compile Include="Assets/ChildCollision1.cs" />
     <Compile Include="Assets/AliE/Scripts/ExplosionScript.cs" />
     <Compile Include="Assets/AliE/UnityTechnologies/ParticlePack/TutorialInfo/Scripts/Readme.cs" />
     <Compile Include="Assets/AliE/VolumetricLines/Scripts/VolumetricLineVertexData.cs" />
+    <Compile Include="Assets/Shahed/LevelTracker.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs" />
