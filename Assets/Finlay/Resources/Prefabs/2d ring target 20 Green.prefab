@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2582081599706259483}
   - component: {fileID: 419582736074703367}
   - component: {fileID: 715877286308439815}
+  - component: {fileID: -969681930599244201}
   m_Layer: 0
   m_Name: 2d ring target 20 Green
   m_TagString: Untagged
@@ -108,3 +109,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-969681930599244201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2840711978074725469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b4a9309f50ab439a9a5528d235cedc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  passed: 0

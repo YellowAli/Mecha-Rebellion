@@ -91,3 +91,8 @@ MonoBehaviour:
   forwardSpeed: 10
   pitchSpeed: 100
   rollSpeed: 100
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 0
+  fire: {fileID: 0}
+  alive: 1

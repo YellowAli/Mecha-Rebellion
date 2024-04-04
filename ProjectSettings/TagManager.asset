@@ -8,6 +8,7 @@ TagManager:
   - Plane
   - mainBullet
   - enemyBullet
+  - Hoop
   layers:
   - Default
   - TransparentFX
