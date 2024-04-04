@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: -5115231817324227948}
   - component: {fileID: 5854874285990397300}
   - component: {fileID: 1945915042198985272}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Weapon_rockets_rocket
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -142,7 +142,7 @@ GameObject:
   - component: {fileID: 400002}
   - component: {fileID: 3300000}
   - component: {fileID: 2300000}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Geom_rocket
   m_TagString: Untagged
   m_Icon: {fileID: 0}

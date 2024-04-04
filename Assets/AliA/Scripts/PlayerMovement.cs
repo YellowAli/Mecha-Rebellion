@@ -6,8 +6,11 @@ using TMPro;
 public class PlayerMovementTutorial : MonoBehaviour
 {
     [Header("Movement")]
+    public float health;
     public float moveSpeed;
     public float sprintMultiplier;
+
+    public bool alive = true; 
 
     public float groundDrag;
 
@@ -40,6 +43,7 @@ public class PlayerMovementTutorial : MonoBehaviour
 
     private void Start()
     {
+       
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
 
@@ -52,7 +56,11 @@ public class PlayerMovementTutorial : MonoBehaviour
 
     private void Update()
     {
-
+        if(health < 0)
+        {
+            alive = false;
+        }
+        
         Vector3 rayStart = transform.position + Vector3.up * 0.1f;
 
         float rayLength = playerHeight * 0.5f + 0.3f + 0.1f;
@@ -139,13 +147,7 @@ public class PlayerMovementTutorial : MonoBehaviour
         readyToJump = true;
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.tag == "enemyBullet")
-        {
-            Debug.Log("its working");
-        }
-    }
+   
 
 
 }

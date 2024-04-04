@@ -72,8 +72,9 @@ public class ExplosionScript : MonoBehaviour
     {
 
         collisions++;
-        if (collision.collider.CompareTag("PlayerArmature") && explodeOnTouch)
+        if (collision.collider.CompareTag("Player") && explodeOnTouch)
         {
+            Debug.Log("here");
             Explode();
         }
 
@@ -84,12 +85,14 @@ public class ExplosionScript : MonoBehaviour
     {
         if (collisions > maxCollisions)
         {
+            Debug.Log("maxCollision");
             Explode();
         }
 
         maxLifetime = maxLifetime - Time.deltaTime;
         if (maxLifetime >= 0)
         {
+            Debug.Log("maxLifetime");
             Explode();
         }
 

@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 11468384}
   - component: {fileID: 10825254}
   - component: {fileID: 4404798977302803044}
-  - component: {fileID: -7583713275479885864}
+  - component: {fileID: -6102201322472881923}
   m_Layer: 8
   m_Name: shot_prefab
   m_TagString: enemyBullet
@@ -209,8 +209,8 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 1
---- !u!64 &-7583713275479885864
-MeshCollider:
+--- !u!65 &-6102201322472881923
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -227,7 +227,6 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 6f7d39c772b3ca04b894e99aa9db1c03, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 0.5, y: 0.5, z: 50}
+  m_Center: {x: 0, y: 0, z: 26}

@@ -22,5 +22,13 @@ public class Shots : MonoBehaviour
     {
        
         Destroy(gameObject);
+
+        if(collision.gameObject.tag == "Player")
+        {
+            Debug.Log("its colliding with player");
+            GameObject player = GameObject.FindWithTag("Player");
+            PlayerMovementTutorial heals = player.GetComponent<PlayerMovementTutorial>();
+            heals.health = heals.health - 100; 
+        }
     }
 }

@@ -22,7 +22,7 @@ public class Challenges : MonoBehaviour
         gun2 = GameObject.Find("SciFiGunLightBlack").GetComponent<PickUpController>();
         gun3 = GameObject.Find("SciFiGunLightBlue").GetComponent<PickUpController>();
         enemy1 = GameObject.Find("CannonMachine Variant 2").GetComponent<EnemyBehaviour>();
-        enemy2 = GameObject.Find("CannonMachine Variant 2 (1)").GetComponent<EnemyBehaviour>();
+       // enemy2 = GameObject.Find("CannonMachine Variant 2 (1)").GetComponent<EnemyBehaviour>();
         enemy3 = GameObject.Find("CannonMachine Variant 2 (2)").GetComponent<EnemyBehaviour>();
         enemy4 = GameObject.Find("CannonMachine Variant 2 (3)").GetComponent<EnemyBehaviour>();
         enemy5 = GameObject.Find("CannonMachine Variant 2 (4)").GetComponent<EnemyBehaviour>();
@@ -60,11 +60,18 @@ public class Challenges : MonoBehaviour
 
     Boolean CheckTask2()
     {
+        try
+        {
 
-        if (!enemy1.alive && !enemy2.alive && !enemy3.alive && !enemy4.alive && !enemy5.alive && !enemy6.alive)
+            if (!enemy1.alive && !enemy2.alive && !enemy3.alive && !enemy4.alive && !enemy5.alive && !enemy6.alive)
+                return true;
+            else
+                return false;
+        }
+        catch(Exception)
+        {
             return true;
-        else
-            return false;
+        }
 
     }
 

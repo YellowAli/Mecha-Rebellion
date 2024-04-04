@@ -5,7 +5,7 @@ using UnityEngine.AI;
 
 public class EnemyBehaviour : MonoBehaviour
 {
- 
+   float time = 5;
     public bool alive = true;
     public float health;
     public NavMeshAgent agent;
@@ -41,6 +41,7 @@ public class EnemyBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        time = time + Time.deltaTime;
         withinSightRange = Physics.CheckSphere(transform.position, sightRange, playerMask);
         withinAttackRange = Physics.CheckSphere(transform.position, attackRange, playerMask);
 
@@ -59,8 +60,15 @@ public class EnemyBehaviour : MonoBehaviour
             EnemyAttack();
         }
 
-        if(health <= 0)
+        if(time < 2 && alive == false)
         {
+            Destroy(fire);
+            Destroy(gameObject);
+            
+        }
+        if(health <= 0 && time > 0)
+        {
+            time = 0;
             Instantiate(fire, transform.position, Quaternion.identity);
             alive = false;
         }
@@ -166,14 +174,15 @@ public class EnemyBehaviour : MonoBehaviour
 
     }
 
-    private void OnCollisionEnter(Collision collision)
+    public void HandleColission(Collision collision)
     {
-        Debug.Log("here");
-        if(collision.gameObject.tag == "mainBullet")
+        //Debug.Log("here");
+        if (collision.gameObject.tag == "mainBullet")
         {
-            Debug.Log("Here");
+            //Debug.Log("Here");
             health = health - 50;
         }
+
     }
 
 }

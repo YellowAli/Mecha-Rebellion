@@ -19,8 +19,15 @@ public class ShotBehavior : MonoBehaviour {
 
     private void OnCollisionEnter(Collision collision)
     {
-		Debug.Log("huh");
-		Destroy(gameObject);
+
+        if (collision.gameObject.tag == "Player")
+        {
+            
+            GameObject player = GameObject.FindWithTag("Player");
+            PlayerMovementTutorial heals = player.GetComponent<PlayerMovementTutorial>();
+            heals.health = heals.health - 5;
+        }
+        Destroy(gameObject);
     }
 
 }

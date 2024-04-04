@@ -7,6 +7,7 @@ public class EnemyBehaviourBoss : MonoBehaviour
 {
     public float health;
     private bool alive = true;
+    bool Play = true;
     public float attackIncrement2;
     public float attackIncrement3;
     float randomNumber = 1;
@@ -87,15 +88,18 @@ public class EnemyBehaviourBoss : MonoBehaviour
                 randomNumber = Random.Range(0, 3);
             }
 
-            if (doEnemyAttck)
+            if (doEnemyAttck && alive)
             {
                 EnemyAttack(randomNumber);
             }
 
-           
 
+        }
 
-
+        if(health< 0)
+        {
+            alive = false;
+            
         }
 
 
@@ -303,21 +307,21 @@ public class EnemyBehaviourBoss : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    public void HandleColission(Collision collision)
     {
-        Debug.Log("this is working");
+        //Debug.Log("here");
         if (collision.gameObject.tag == "mainBullet")
         {
-            Debug.Log("the health is decreasing" + health);
-            health = health - 2;
+            //Debug.Log("Here");
+            health = health - 50;
         }
 
-        if (health <= 0)
+        if(alive == false && Play)
         {
-            Debug.Log(health);
-            alive = false;
-            
+            anim.SetTrigger("dead");
+            Play = false;
         }
+
     }
 
 
