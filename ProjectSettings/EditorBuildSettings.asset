@@ -7,12 +7,18 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
-    guid: 7a6db28e018f94f388c2fb3852479e07
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/ReplayScreen.unity
+    guid: 9ca985e87fa704de8b4fa0c0aea2f0e7
   - enabled: 1
     path: Assets/Scenes/Level1.unity
     guid: 2434665737ce98044a9614c9862021b8
   - enabled: 1
     path: Assets/Scenes/Level2.unity
     guid: a93d9bf8c7c83124ababd83e20bc329d
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: d0bc2c7779797fc4886bab7ca8533473
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

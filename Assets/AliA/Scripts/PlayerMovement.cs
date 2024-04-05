@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovementTutorial : MonoBehaviour
 {
@@ -56,9 +57,11 @@ public class PlayerMovementTutorial : MonoBehaviour
 
     private void Update()
     {
-        if(health < 0)
+        Debug.Log("Health: " + health);
+        if (health < 0)
         {
             alive = false;
+            SceneManager.LoadScene("ReplayScreen");
         }
         
         Vector3 rayStart = transform.position + Vector3.up * 0.1f;

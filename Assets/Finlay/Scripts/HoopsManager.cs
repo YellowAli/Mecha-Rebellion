@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class HoopsManager : MonoBehaviour
 {
@@ -33,8 +34,14 @@ public class HoopsManager : MonoBehaviour
         if (hoops[currentHoopIndex] == hoop)
         {
             currentHoopIndex++; // Correct hoop passed, move to the next one
+
+            // Check if the player has passed through the required number of hoops
+            if (currentHoopIndex >= 2)
+            {
+                // Load the next level, Level 3
+                SceneManager.LoadScene("Level3");
+            }
         }
-        // Removed the else block that destroys the plane
     }
 
     public GameObject GetCurrentHoop()

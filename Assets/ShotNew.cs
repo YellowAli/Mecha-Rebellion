@@ -13,11 +13,11 @@ public class ShotNew : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position += transform.forward * Time.deltaTime * 1000f;
+        transform.position += transform.forward * Time.deltaTime * 500f;
     }
 
     private void OnCollisionEnter(Collision collision)
     {
-        //Destroy(gameObject);
+        Destroy(gameObject);
     }
 }

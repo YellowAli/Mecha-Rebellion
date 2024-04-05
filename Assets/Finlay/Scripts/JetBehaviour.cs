@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class JetBehaviour : MonoBehaviour
 {
@@ -22,9 +23,13 @@ public class JetBehaviour : MonoBehaviour
     public bool alive = true;
 
 
-
     void Start()
     {
+        if (SceneManager.GetActiveScene().buildIndex != 3) // Replace indexOfLevel2 with the actual build index of level 2
+        {
+            this.enabled = false; // Disables this script if not in Level 2
+            return; // Exit early since we're not in the right scene
+        }
         // Attempt to get the Rigidbody component
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
@@ -122,15 +127,20 @@ public class JetBehaviour : MonoBehaviour
 
     public void DestroyPlane()
     {
-        alive = false;
-        // Here you can add an explosion effect or sound if you want
-        controlsEnabled = false;
-        // Stop forward movement
-        rb.velocity = Vector3.zero;
-        rb.angularVelocity = Vector3.zero;
+        if (SceneManager.GetActiveScene().buildIndex == 3) // Replace indexOfLevel2 with the actual build index of level 2
+        {
+            alive = false;
+            // Here you can add an explosion effect or sound if you want
+            controlsEnabled = false;
+            // Stop forward movement
+            rb.velocity = Vector3.zero;
+            rb.angularVelocity = Vector3.zero;
 
-        // Enable gravity
-        rb.useGravity = true;
-        Instantiate(fire, transform.position, Quaternion.identity);
+            // Enable gravity
+            rb.useGravity = true;
+            Instantiate(fire, transform.position, Quaternion.identity);
+            SceneManager.LoadScene("ReplayScreen");
+        }
+
     }
 }
