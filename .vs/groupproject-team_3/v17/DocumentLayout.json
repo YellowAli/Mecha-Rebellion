@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\jacob\\UnityGame_current\\groupproject-team_3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3B92B011-DCCB-E03F-446D-47A549CF5FA9}|Assembly-CSharp.csproj|C:\\Users\\jacob\\UnityGame_current\\groupproject-team_3\\assets\\hudscripts\\lvl3healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B92B011-DCCB-E03F-446D-47A549CF5FA9}|Assembly-CSharp.csproj|solutionrelative:assets\\hudscripts\\lvl3healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B92B011-DCCB-E03F-446D-47A549CF5FA9}|Assembly-CSharp.csproj|c:\\users\\jacob\\unitygame_current\\groupproject-team_3\\assets\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B92B011-DCCB-E03F-446D-47A549CF5FA9}|Assembly-CSharp.csproj|solutionrelative:assets\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3B92B011-DCCB-E03F-446D-47A549CF5FA9}|Assembly-CSharp.csproj|c:\\users\\jacob\\unitygame_current\\groupproject-team_3\\assets\\hudscripts\\lvl3challenges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B92B011-DCCB-E03F-446D-47A549CF5FA9}|Assembly-CSharp.csproj|solutionrelative:assets\\hudscripts\\lvl3challenges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B92B011-DCCB-E03F-446D-47A549CF5FA9}|Assembly-CSharp.csproj|C:\\Users\\jacob\\UnityGame_current\\groupproject-team_3\\assets\\hudscripts\\challenges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B92B011-DCCB-E03F-446D-47A549CF5FA9}|Assembly-CSharp.csproj|solutionrelative:assets\\hudscripts\\challenges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B92B011-DCCB-E03F-446D-47A549CF5FA9}|Assembly-CSharp.csproj|c:\\users\\jacob\\unitygame_current\\groupproject-team_3\\assets\\hudscripts\\lvl3healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B92B011-DCCB-E03F-446D-47A549CF5FA9}|Assembly-CSharp.csproj|solutionrelative:assets\\hudscripts\\lvl3healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B92B011-DCCB-E03F-446D-47A549CF5FA9}|Assembly-CSharp.csproj|C:\\Users\\jacob\\UnityGame_current\\groupproject-team_3\\assets\\hudscripts\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,11 +38,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "health.cs",
+              "DocumentMoniker": "C:\\Users\\jacob\\UnityGame_current\\groupproject-team_3\\Assets\\health.cs",
+              "RelativeDocumentMoniker": "Assets\\health.cs",
+              "ToolTip": "C:\\Users\\jacob\\UnityGame_current\\groupproject-team_3\\Assets\\health.cs",
+              "RelativeToolTip": "Assets\\health.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T23:24:49.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Lvl3HealthBar.cs",
+              "DocumentMoniker": "C:\\Users\\jacob\\UnityGame_current\\groupproject-team_3\\Assets\\HUDscripts\\Lvl3HealthBar.cs",
+              "RelativeDocumentMoniker": "Assets\\HUDscripts\\Lvl3HealthBar.cs",
+              "ToolTip": "C:\\Users\\jacob\\UnityGame_current\\groupproject-team_3\\Assets\\HUDscripts\\Lvl3HealthBar.cs",
+              "RelativeToolTip": "Assets\\HUDscripts\\Lvl3HealthBar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T16:36:45.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Lvl3Challenges.cs",
               "DocumentMoniker": "C:\\Users\\jacob\\UnityGame_current\\groupproject-team_3\\Assets\\HUDscripts\\Lvl3Challenges.cs",
               "RelativeDocumentMoniker": "Assets\\HUDscripts\\Lvl3Challenges.cs",
@@ -47,44 +77,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-06T16:37:06.045Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Lvl3HealthBar.cs",
-              "DocumentMoniker": "C:\\Users\\jacob\\UnityGame_current\\groupproject-team_3\\Assets\\HUDscripts\\Lvl3HealthBar.cs",
-              "RelativeDocumentMoniker": "Assets\\HUDscripts\\Lvl3HealthBar.cs",
-              "ToolTip": "C:\\Users\\jacob\\UnityGame_current\\groupproject-team_3\\Assets\\HUDscripts\\Lvl3HealthBar.cs",
-              "RelativeToolTip": "Assets\\HUDscripts\\Lvl3HealthBar.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T16:36:45.842Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "C:\\Users\\jacob\\UnityGame_current\\groupproject-team_3\\Assets\\AliA\\Scripts\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\AliA\\Scripts\\PlayerMovement.cs",
-              "ToolTip": "C:\\Users\\jacob\\UnityGame_current\\groupproject-team_3\\Assets\\AliA\\Scripts\\PlayerMovement.cs",
-              "RelativeToolTip": "Assets\\AliA\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T15:04:30.067Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HealthBar.cs",
-              "DocumentMoniker": "C:\\Users\\jacob\\UnityGame_current\\groupproject-team_3\\Assets\\HUDscripts\\HealthBar.cs",
-              "RelativeDocumentMoniker": "Assets\\HUDscripts\\HealthBar.cs",
-              "ToolTip": "C:\\Users\\jacob\\UnityGame_current\\groupproject-team_3\\Assets\\HUDscripts\\HealthBar.cs",
-              "RelativeToolTip": "Assets\\HUDscripts\\HealthBar.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T15:00:12.662Z",
               "EditorCaption": ""
             },
             {
@@ -98,6 +90,30 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\jacob\\UnityGame_current\\groupproject-team_3\\Assets\\AliA\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\AliA\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\jacob\\UnityGame_current\\groupproject-team_3\\Assets\\AliA\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\AliA\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T15:04:30.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HealthBar.cs",
+              "DocumentMoniker": "C:\\Users\\jacob\\UnityGame_current\\groupproject-team_3\\Assets\\HUDscripts\\HealthBar.cs",
+              "RelativeDocumentMoniker": "Assets\\HUDscripts\\HealthBar.cs",
+              "ToolTip": "C:\\Users\\jacob\\UnityGame_current\\groupproject-team_3\\Assets\\HUDscripts\\HealthBar.cs",
+              "RelativeToolTip": "Assets\\HUDscripts\\HealthBar.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T15:00:12.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "EnemyBehaviour.cs",
               "DocumentMoniker": "C:\\Users\\jacob\\UnityGame_current\\groupproject-team_3\\Assets\\AliE\\Scripts\\EnemyBehaviour.cs",
               "RelativeDocumentMoniker": "Assets\\AliE\\Scripts\\EnemyBehaviour.cs",
@@ -109,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Challenges.cs",
               "DocumentMoniker": "C:\\Users\\jacob\\UnityGame_current\\groupproject-team_3\\Assets\\HUDscripts\\Challenges.cs",
               "RelativeDocumentMoniker": "Assets\\HUDscripts\\Challenges.cs",
@@ -117,8 +133,7 @@
               "RelativeToolTip": "Assets\\HUDscripts\\Challenges.cs",
               "ViewState": "AQIAADYAAAAAAAAAAAAUwEIAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T22:29:04.952Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T22:29:04.952Z"
             }
           ]
         }
