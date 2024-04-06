@@ -6,7 +6,7 @@ using UnityEngine.UIElements;
 
 public class health : MonoBehaviour
 {
-    public float healths;
+    public float healths = 100;
     // Start is called before the first frame update
     void Start()
     {

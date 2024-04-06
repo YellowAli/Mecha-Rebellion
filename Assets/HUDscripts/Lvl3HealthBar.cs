@@ -7,20 +7,20 @@ using UnityEngine.UI;
 public class Lvl3HealthBar : MonoBehaviour
 {
     public Slider healthBar;
-    PlayerMovementTutorial playerHealth;
     public TextMeshProUGUI healthBarNumber;
+    health playerHealth;
 
     // Start is called before the first frame update
     void Start()
     {
-        playerHealth = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovementTutorial>();
+        playerHealth = GameObject.Find("PlayerArmature").GetComponent<health>();
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        healthBar.value = playerHealth.health;
+        healthBar.value = playerHealth.healths;
         healthBarNumber.SetText(healthBar.value.ToString());
     }
 }
