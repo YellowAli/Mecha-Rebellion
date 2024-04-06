@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.SceneManagement;
@@ -54,8 +55,9 @@ public class EnemyBehaviourBoss : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
         
+    {
+
         withinSightRange = Physics.CheckSphere(transform.position, sightRange, playerMask);
         withinAttackRange = Physics.CheckSphere(transform.position, attackRange, playerMask);
 
@@ -100,11 +102,25 @@ public class EnemyBehaviourBoss : MonoBehaviour
         if(health< 0)
         {
             alive = false;
-            SceneManager.LoadScene("MainMenu");
+            // Display "You Won" message on the canvas
+            // Start coroutine to switch to the main menu after a delay
+            StartCoroutine(SwitchToMainMenu());
 
         }
 
 
+
+    }
+    
+
+
+    IEnumerator SwitchToMainMenu()
+    {
+        // Wait for the specified delay
+        yield return new WaitForSeconds(7f);
+
+        // Load the main menu scene
+        SceneManager.LoadScene("MainMenu");
     }
 
 

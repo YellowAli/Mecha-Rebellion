@@ -9,7 +9,7 @@ using UnityEngine.UI;
 public class Lvl3Challenges : MonoBehaviour
 {
     // this is the final version
-    public TextMeshProUGUI challengesList1, challengesList2;
+    public TextMeshProUGUI challengesList1, challengesList2, winnerText;
     public Boolean equippedWeapon, eliminatedAll;
     PickUpController gun1, gun2, gun3;
     EnemyBehaviourBoss boss;
@@ -21,6 +21,7 @@ public class Lvl3Challenges : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        winnerText.gameObject.SetActive(false);
 
         gun1 = GameObject.Find("SciFiGunLightRad Variant").GetComponent<PickUpController>();
         gun2 = GameObject.Find("SciFiGunLightBlack Variant").GetComponent<PickUpController>();
@@ -61,8 +62,9 @@ public class Lvl3Challenges : MonoBehaviour
 
     Boolean CheckTask2()
     {
-        if (boss.health == 0)
-            return true;
+        if (boss.health <= 0) {
+            winnerText.gameObject.SetActive(true);
+            return true; }
         else
             return false;
     }
