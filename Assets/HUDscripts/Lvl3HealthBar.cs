@@ -1,12 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 
-public class HealthBar : MonoBehaviour
+public class Lvl3HealthBar : MonoBehaviour
 {
-
     public Slider healthBar;
     PlayerMovementTutorial playerHealth;
     public TextMeshProUGUI healthBarNumber;
@@ -15,7 +14,7 @@ public class HealthBar : MonoBehaviour
     void Start()
     {
         playerHealth = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovementTutorial>();
-        
+
     }
 
     // Update is called once per frame
