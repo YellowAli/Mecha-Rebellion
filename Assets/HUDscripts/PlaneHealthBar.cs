@@ -1,27 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 
-public class HealthBar : MonoBehaviour
+public class PlaneHealthBar : MonoBehaviour
 {
-
     public Slider healthBar;
-    PlayerMovementTutorial playerHealth;
+    JetBehaviour jetHealth;
     public TextMeshProUGUI healthBarNumber;
 
     // Start is called before the first frame update
     void Start()
     {
-        playerHealth = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovementTutorial>();
-        
+        jetHealth = GameObject.FindGameObjectWithTag("Plane").GetComponent<JetBehaviour>();
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        healthBar.value = playerHealth.health;
+        healthBar.value = jetHealth.health;
         healthBarNumber.SetText(healthBar.value.ToString());
     }
 }
