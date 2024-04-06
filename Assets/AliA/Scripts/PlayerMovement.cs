@@ -57,7 +57,7 @@ public class PlayerMovementTutorial : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log("Health: " + health);
+        
         if (health < 0)
         {
             alive = false;

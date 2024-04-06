@@ -257,7 +257,7 @@ public class EnemyBehaviourBoss : MonoBehaviour
             Vector3 directionWithSpread = directionWithoutSpread + new Vector3(x, y, 0); //Just add spread to last direction
 
             //Instantiate bullet/projectile
-            GameObject currentBullet = Instantiate(laserBullet, attackPoint2.position, Quaternion.identity); //store instantiated bullet in currentBullet
+            GameObject currentBullet = Instantiate(laserBullet, attackPoint2.position, Quaternion.LookRotation(directionWithSpread)); //store instantiated bullet in currentBullet
                                                                                                              //Rotate bullet to shoot direction
             currentBullet.transform.forward = directionWithSpread.normalized;
 
