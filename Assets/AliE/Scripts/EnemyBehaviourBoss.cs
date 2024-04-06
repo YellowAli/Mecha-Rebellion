@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 public class EnemyBehaviourBoss : MonoBehaviour
 {
@@ -99,7 +100,8 @@ public class EnemyBehaviourBoss : MonoBehaviour
         if(health< 0)
         {
             alive = false;
-            
+            SceneManager.LoadScene("MainMenu");
+
         }
 
 
