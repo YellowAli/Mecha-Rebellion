@@ -873,7 +873,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7882820195712338625, guid: 53605eb690014b04a87a15f8953144b5, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967039333770019897, guid: 53605eb690014b04a87a15f8953144b5, type: 3}
+      propertyPath: health
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967039333770019897, guid: 53605eb690014b04a87a15f8953144b5, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967039333770019897, guid: 53605eb690014b04a87a15f8953144b5, type: 3}
+      propertyPath: attackIncrements
+      value: 1.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1218,7 +1230,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7882820195712338625, guid: 53605eb690014b04a87a15f8953144b5, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967039333770019897, guid: 53605eb690014b04a87a15f8953144b5, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967039333770019897, guid: 53605eb690014b04a87a15f8953144b5, type: 3}
+      propertyPath: attackIncrements
+      value: 1.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3152,7 +3172,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7882820195712338625, guid: 53605eb690014b04a87a15f8953144b5, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967039333770019897, guid: 53605eb690014b04a87a15f8953144b5, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8967039333770019897, guid: 53605eb690014b04a87a15f8953144b5, type: 3}
+      propertyPath: attackIncrements
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
