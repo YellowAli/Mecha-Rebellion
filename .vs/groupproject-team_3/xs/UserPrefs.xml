@@ -1,12 +1,10 @@
 ﻿<Properties StartupConfiguration="{3B92B011-DCCB-E03F-446D-47A549CF5FA9}|">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a9332c0a-480b-41a3-92cf-9fb29fa3339a" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0f102b66-dfc6-418f-938b-0efc9e494d76" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/AliE/Scripts/EnemyBehaviourBoss.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Finlay/Scripts/HUD.cs">
     <Files>
       <File FileName="Assets/AliE/Scripts/EnemyBehaviour.cs" />
       <File FileName="Assets/Shahed/MainMenuSwitch.cs" />
@@ -25,11 +23,14 @@
       <File FileName="Assets/AliE/Scripts/TurretEnemyBehaviour.cs" />
       <File FileName="Assets/Finlay/Scripts/Hoop.cs" />
       <File FileName="Assets/Finlay/Scripts/HoopsManager.cs" />
-      <File FileName="Assets/Finlay/Scripts/HUD.cs" />
+      <File FileName="Assets/Finlay/Scripts/HUD.cs" Line="40" Column="10" />
       <File FileName="Assets/AliE/Bullet.prefab" />
-      <File FileName="Assets/AliE/Scripts/EnemyBehaviourBoss.cs" Line="120" Column="42" />
+      <File FileName="Assets/AliE/Scripts/EnemyBehaviourBoss.cs" />
       <File FileName="Assets/AliE/Boss.prefab" />
       <File FileName="Assets/HUDscripts/Lvl3Challenges.cs" />
+      <File FileName="Assets/health.cs" />
+      <File FileName="Assets/HUDscripts/HealthBar.cs" />
+      <File FileName="Assets/Finlay/Scripts/BeamBehaviour.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -60,4 +61,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

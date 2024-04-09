@@ -36,7 +36,7 @@ public class HoopsManager : MonoBehaviour
             currentHoopIndex++; // Correct hoop passed, move to the next one
 
             // Check if the player has passed through the required number of hoops
-            if (currentHoopIndex >= 2)
+            if (currentHoopIndex >= 20)
             {
                 // Load the next level, Level 3
                 SceneManager.LoadScene("Level3");

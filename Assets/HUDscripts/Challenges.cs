@@ -12,8 +12,7 @@ public class Challenges : MonoBehaviour
     public TextMeshProUGUI challengesList1, challengesList2, challengesList3;
     public Boolean equippedWeapon, eliminatedAll;
     PickUpController gun1, gun2, gun3;
-    EnemyBehaviour enemy5;
-   //     EnemyBehaviour enemy2, enemy3, enemy4, enemy6;
+    EnemyBehaviour enemy1, enemy2, enemy3, enemy4, enemy6, enemy5;
     private Boolean conditionMet1 = false, conditionMet2 = false;
 
     // Start is called before the first frame update
@@ -23,11 +22,11 @@ public class Challenges : MonoBehaviour
         gun1 = GameObject.Find("SciFiGunLightRad").GetComponent<PickUpController>();
         gun2 = GameObject.Find("SciFiGunLightBlack").GetComponent<PickUpController>();
         gun3 = GameObject.Find("SciFiGunLightBlue").GetComponent<PickUpController>();
-      //  enemy1 = GameObject.Find("CannonMachine Variant 2").GetComponent<EnemyBehaviour>();
-       // enemy2 = GameObject.Find("CannonMachine Variant 2 (1)").GetComponent<EnemyBehaviour>();
-        //enemy3 = GameObject.Find("CannonMachine Variant 2 (2)").GetComponent<EnemyBehaviour>();
-       // enemy4 = GameObject.Find("CannonMachine Variant 2 (3)").GetComponent<EnemyBehaviour>();
-        //enemy5 = GameObject.Find("CannonMachine Variant 2 (4)").GetComponent<EnemyBehaviour>();
+        enemy1 = GameObject.Find("CannonMachine Variant 2").GetComponent<EnemyBehaviour>();
+        enemy2 = GameObject.Find("CannonMachine Variant 2 (1)").GetComponent<EnemyBehaviour>();
+        enemy3 = GameObject.Find("CannonMachine Variant 2 (2)").GetComponent<EnemyBehaviour>();
+        enemy4 = GameObject.Find("CannonMachine Variant 2 (3)").GetComponent<EnemyBehaviour>();
+        enemy6 = GameObject.Find("CannonMachine Variant 2 (4)").GetComponent<EnemyBehaviour>();
         enemy5 = GameObject.Find("CannonMachine Variant 2 (5)").GetComponent<EnemyBehaviour>();
 
     }
@@ -63,7 +62,7 @@ public class Challenges : MonoBehaviour
     Boolean CheckTask2()
     {
         // Make sure to correctly initialize enemy2 somewhere in Start if it's being used.
-        return (!enemy5.alive);
+        return (!enemy5.alive && !enemy1.alive && !enemy2.alive && !enemy3.alive && !enemy4.alive && !enemy6.alive);
     }
 
 

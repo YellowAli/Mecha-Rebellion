@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class HUD : MonoBehaviour
 {
@@ -34,6 +35,11 @@ public class HUD : MonoBehaviour
         }
 
         updateText();
+
+        if (hoopCounter >= 23)
+        {
+            SceneManager.LoadScene("Level3");
+        }
     }
 
     void updateText()
