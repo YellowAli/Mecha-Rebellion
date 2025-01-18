@@ -1,8 +1,3 @@
-# group-project-team-3
-Here’s a draft README file for your game **Mecha Rebellion**:
-
----
-
 # Mecha Rebellion
 
 **Mecha Rebellion** is an action-packed 3D first-person shooter (FPS) game developed in Unity. Featuring AI-driven combat, aerial challenges, and a dynamic final boss battle, the game offers three progressively intense levels to test your skills and strategy.
